@@ -1,0 +1,13 @@
+metric,value
+analysis_id,AML_GRAPHRX_R10C_CROSS_SEED_STATE_CONSISTENCY_V1
+original_R5G_reproduced,True
+R10B_all_9_arms_reproduced,True
+same_1733_discovery_samples,True
+independent_external_validation_performed,False
+graph_median_pairwise_raw_ARI,0.23122964101317947
+graph_median_matched_recurrent_Jaccard,0.2676246510630234
+graph_highest_median_raw_ARI_descriptive,False
+graph_highest_median_Jaccard_descriptive,False
+graph_cross_seed_superiority_established,False
+reason_for_false_superiority_flag,Three known seeds on one discovery collection; stability does not establish external transport or clinical use.
+caution,Bootstrap within-seed Jaccard is not cross-seed identity consistency; internal recurrence is not external transport.

@@ -1,0 +1,66 @@
+{
+  "arms": [
+    "LOCKED_GENE_GNN32",
+    "EXPRESSION_PCA32",
+    "RANDOM_GAUSSIAN32_s0",
+    "RANDOM_GAUSSIAN32_s1",
+    "RANDOM_GAUSSIAN32_s2",
+    "RANDOM_GAUSSIAN32_s3",
+    "RANDOM_GAUSSIAN32_s4",
+    "GNN_GENE_ROW_SHUFFLE32_s0",
+    "GNN_GENE_ROW_SHUFFLE32_s1",
+    "GNN_GENE_ROW_SHUFFLE32_s2",
+    "GNN_GENE_ROW_SHUFFLE32_s3",
+    "GNN_GENE_ROW_SHUFFLE32_s4"
+  ],
+  "bootstrap_edge_keep": 0.8,
+  "bootstrap_edges": 30,
+  "fairness": "Identical 32D patient projection, within-GSE gene median centering, robust IQR scaling, cosine MNN K10, weighted RB Leiden resolution1, 30x80pct edge perturbation and R5G recurrence criteria",
+  "id": "AML_GRAPHRX_R10A_GENE_FIRST_DISCOVERY_REPRESENTATION_ABLATION_V1",
+  "metrics": [
+    "recurrent_states_n",
+    "recurrent_coverage",
+    "state_cohort_NMI_descriptive",
+    "median_recurrent_stability",
+    "ARI_vs_original_discovery_labels_descriptive"
+  ],
+  "original_GNN_fidelity_required": true,
+  "parent_files_sha256": {
+    "20260823T123040Z_patient_rank_raw_float64.npy": "8c2a914c11562073fb3e6bfbc36f8e2c0fc5d76ca88237a938761e4ca79f7a10",
+    "452_R5DICE_discovery_ledger.csv": "c33172332ef0ab385c0701472338895acce5d993355f57ec2d13e83a35be4778",
+    "481_R5G_predeclared_protocol.json": "bfe9fbcb37cc8a22ae5487bbe402d1e489fb9162c267b6f4125e154aa8e305f5",
+    "483_R5G_gene_embeddings.npy": "5f3412c3c402eb41bb583d764e0fc67b5af66fe5a3a013c8264749062dcf79ee",
+    "486_R5G_patient_projection.npy": "00d5d582cf078dda3b72b1d6734f6082d1a36114d677a7e277307bf1cff68185",
+    "488_R5G_cross_cohort_MNN_edges.csv": "d1c87985d982fa63c66d7dbf517d46229553279cc11d770c043e11945cf885a8",
+    "489_R5G_Leiden_raw_assignments.csv": "797890978039cd710bd2642afe030e27cb648e7f335d140ec96986463bf2e4bd",
+    "490_R5G_bootstrap_state_stability.csv": "f92f333f7bae8e60cf7e6d7b4c004e718dfef925f4074cfc5a15412ea17e7703",
+    "492_R5G_recurrent_state_patient_assignments.csv": "765facf2bdc0e81f7eefaa7561411f694eac95c0b482d7177f77356bf7cf7876",
+    "497_R5G_manifest.csv": "b45a4991da7acdd653428344f2c4bd1b8912f2323a8b8ce4997c81b8954c9677"
+  },
+  "pca": "Randomized SVD of cohort-median-centered discovery expression, 32 gene loadings; column-standardize and gene-row L2-normalize like original GNN basis; no supervised labels",
+  "prohibit": [
+    "GNN retraining",
+    "post-result filtering",
+    "GSE exclusion",
+    "alter original R5G parameters",
+    "select superiority from a single internal clustering metric",
+    "claim independent state portability"
+  ],
+  "purpose": "Test internal discovery representation sensitivity to removing gene-graph representation",
+  "random_seeds": [
+    20261011,
+    20261012,
+    20261013,
+    20261014,
+    20261015
+  ],
+  "scope": "Same 1733 discovery AML / 8 cohorts as frozen R5G; no heldout test in this stage",
+  "shuffle_seeds": [
+    20261021,
+    20261022,
+    20261023,
+    20261024,
+    20261025
+  ],
+  "status": "RETROSPECTIVE_EXPLORATORY"
+}

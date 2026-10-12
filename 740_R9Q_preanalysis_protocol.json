@@ -1,0 +1,58 @@
+{
+  "adjusted_effect": "Pearson correlation between residuals obtained after separately OLS-residualizing rank-transformed S03 and S06 component scores on an intercept and all six rank-transformed cell-state scores.",
+  "axis_identity_check": "R7B2_frozen_pathway_axis_score == S06_high_component_mean - S03_high_component_mean",
+  "bootstrap": {
+    "replicates_per_wave": 2000,
+    "rerank_and_refit_covariate_residualization": true,
+    "sampling_unit": "subject",
+    "seed": 20261010
+  },
+  "claim_boundaries": [
+    "All adjusted variables arise from transcriptomes.",
+    "Two wave groups are subsets of one BeatAML study.",
+    "Previous raw correlations were already observed.",
+    "Residual correlation does not establish causality.",
+    "No prognostic or treatment response claim is tested."
+  ],
+  "covariates": [
+    "HSC-like",
+    "Prog-like",
+    "GMP-like",
+    "ProMono-like",
+    "Mono-like",
+    "cDC-like"
+  ],
+  "frozen_components": [
+    "S03_high_component_mean",
+    "S06_high_component_mean"
+  ],
+  "inputs": {
+    "625_R7B2_BeatAML_axis_scores.csv": "3b9a414709e26efe2a359f9b5b3e29e937923accb9f67554a451bba162ee1c9c",
+    "629_R7B2_final_summary.csv": "5ef24268ccd8247e7e1f01ee51093a0e34ad2d6f5c653da0fe32a52b382b402c",
+    "630_R7B2_manifest.csv": "de9532f0e042d9a76a8695c4d6ba799d28aff134600b26cca8ccc09d550ab053",
+    "639_R7C_final_summary.csv": "ad61859f4ff2c0eb5c5cdf0afcc57ae8e9eef19306301030e79c67adcba0443d",
+    "666_R8H2_axis_celltype_overlap_ledger.csv": "2d1539a5a13d7ca2b677c22832744ff2a8d91b6f49c70c659b30a342adc9cf48",
+    "673_R8H2_manifest.csv": "99a071864d7ca18fe8c743c45e5d788eaffe8eecb69e9de1f7cf990d8025e448"
+  },
+  "multiplicity": "Benjamini-Hochberg over the two wave-level permutation P values",
+  "no_change_to_frozen_pathway_axis": true,
+  "no_drug_response": true,
+  "no_training_or_modification_of_GNN": true,
+  "permutation": {
+    "P_floor": "1/2001",
+    "limitation": "Approximate residual-permutation sensitivity test; not exact causal inference.",
+    "method": "shuffle one residual vector within wave",
+    "replicates_per_wave": 2000,
+    "seed": 20261010,
+    "tail": "negative"
+  },
+  "protocol_id": "AML_GRAPHRX_R9Q_CELLSTATE_CONDITIONAL_BEATAML_V1",
+  "raw_effect": "Spearman correlation within each wave",
+  "result_label": "Conditional transcriptomic association; not independent external or orthogonal validation",
+  "role": "post-hoc fixed sensitivity analysis in previously assessed BeatAML subjects",
+  "scientific_question": "Does external S03-high vs S06-high opposition remain after adjustment for all six malignant-cell-state scores?",
+  "stratification": [
+    "Waves1+2",
+    "Waves3+4"
+  ]
+}

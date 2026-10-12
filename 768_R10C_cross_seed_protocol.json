@@ -1,0 +1,47 @@
+{
+  "arms": [
+    "REAL_GRAPH",
+    "DEGREE_PRESERVING_REWIRE",
+    "NO_MESSAGE_PASSING"
+  ],
+  "caution": "Never interpret ARI on jointly recurrent subjects without reporting their proportion; a single recurrent cluster gives undefined intersection ARI.",
+  "drug_response_analysis": false,
+  "fixed_pipeline": "Exact R10B/R10A projection, cross-cohort MNN, Leiden, recurrent-state definition",
+  "locked_parent_outputs_changed": false,
+  "primary_label_invariant_metrics": [
+    "raw_partition_ARI_all1733",
+    "matched_recurrent_weighted_Jaccard"
+  ],
+  "protocol_id": "AML_GRAPHRX_R10C_CROSS_SEED_STATE_CONSISTENCY_V1",
+  "seeds": [
+    20261031,
+    20261101,
+    20261102
+  ],
+  "source_files_sha256": {
+    "20260823T123040Z_patient_rank_raw_float64.npy": "8c2a914c11562073fb3e6bfbc36f8e2c0fc5d76ca88237a938761e4ca79f7a10",
+    "452_R5DICE_discovery_ledger.csv": "c33172332ef0ab385c0701472338895acce5d993355f57ec2d13e83a35be4778",
+    "481_R5G_predeclared_protocol.json": "bfe9fbcb37cc8a22ae5487bbe402d1e489fb9162c267b6f4125e154aa8e305f5",
+    "483_R5G_gene_embeddings.npy": "5f3412c3c402eb41bb583d764e0fc67b5af66fe5a3a013c8264749062dcf79ee",
+    "486_R5G_patient_projection.npy": "00d5d582cf078dda3b72b1d6734f6082d1a36114d677a7e277307bf1cff68185",
+    "488_R5G_cross_cohort_MNN_edges.csv": "d1c87985d982fa63c66d7dbf517d46229553279cc11d770c043e11945cf885a8",
+    "489_R5G_Leiden_raw_assignments.csv": "797890978039cd710bd2642afe030e27cb648e7f335d140ec96986463bf2e4bd",
+    "492_R5G_recurrent_state_patient_assignments.csv": "765facf2bdc0e81f7eefaa7561411f694eac95c0b482d7177f77356bf7cf7876",
+    "497_R5G_manifest.csv": "b45a4991da7acdd653428344f2c4bd1b8912f2323a8b8ce4997c81b8954c9677",
+    "760_R10B_protocol.json": "d09ac566de44bcbcdd899d55f4e0af32b3830fb1da7cc240452df04cc208982a",
+    "761_R10B_parent_integrity.csv": "7331fb62d6ac94435b16633ec7db30d92efb9eb3f58f0a410dd7e07539182129",
+    "762_R10B_graph_rewiring_audit.csv": "62a0b5a72fa8515df998be1c00f69c845a687c4cffaa888996baf136a72df208",
+    "763_R10B_training_history.csv": "3c88ab0c7345f8e8fb8262b4719a8f4da55e6f9544cb9e8067e1d5db6fe04ac9",
+    "764_R10B_arm_discovery_metrics.csv": "e9b15703e81496c0097980ef4367badd4962737b6325c137c4d278f6e61e329f",
+    "765_R10B_paired_descriptive_contrasts.csv": "4159746d0a2a00b68d053c16b234ce7bd1d3ace86253f96688ed2d780629c37b",
+    "766_R10B_final_summary.csv": "ed95e796b0211c9e7be52f8fad83b7163ebc664635a80b59b1081a5a4b28ce39",
+    "767_R10B_manifest.csv": "08bbb00076d948306c79e515099b8ff16e983cbe95c7ba178a15db49e9389484"
+  },
+  "status": "POST_HOC_EXPLORATORY_INTERNAL_DISCOVERY",
+  "supplemental": [
+    "raw_partition_NMI_all1733",
+    "jointly_recurrent_fraction",
+    "recurrent_partition_ARI_on_intersection"
+  ],
+  "test_scope": "Same 1733 discovery AML samples only; no new external transport or clinical claim"
+}

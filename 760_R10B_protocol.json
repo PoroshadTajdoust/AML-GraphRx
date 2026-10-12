@@ -1,0 +1,57 @@
+{
+  "arms": [
+    "REAL_GRAPH",
+    "DEGREE_PRESERVING_REWIRE",
+    "NO_MESSAGE_PASSING"
+  ],
+  "downstream": "R10A exact original patient projection, cross-cohort MNN K10, RB Leiden 1.0, 30x80percent edge perturbation",
+  "encoder": "Original R5G GeneRGAE 2 RGCNConv layers; 32-64-32; DistMult",
+  "epochs": 30,
+  "graph_interventions": {
+    "DEGREE_PRESERVING_REWIRE": "Directed within-relation double-edge swaps, exact in/out degrees and selfloops",
+    "NO_MESSAGE_PASSING": "Empty neighbor arcs, retains RGCN root transforms and trainable decoder",
+    "REAL_GRAPH": "Original frozen relation topology"
+  },
+  "id": "AML_GRAPHRX_R10B_GRAPH_EDGE_MESSAGE_ABLATION_V1",
+  "latent_dimensions": 32,
+  "matched_comparison": "Identical seeds, 30 epochs, optimizer, edge prediction targets and downstream R5G state discovery",
+  "negative_sampling": "Same relation-specific original-link negative sampling in every arm",
+  "no_causal_or_clinical_superiority_claim": true,
+  "no_cohort_exclusion": true,
+  "no_drug_response": true,
+  "no_external_state_transport": true,
+  "no_graph_edits_to_locked_outputs": true,
+  "parent_sha256": {
+    "20260823T123040Z_patient_rank_raw_float64.npy": "8c2a914c11562073fb3e6bfbc36f8e2c0fc5d76ca88237a938761e4ca79f7a10",
+    "20260823T123040Z_shared_locked_topology.pt": "97e214d5eea1b2e04125d4fcd0f5a0703f1f67c6fde02316eb51d2b3f0f7f9e7",
+    "452_R5DICE_discovery_ledger.csv": "c33172332ef0ab385c0701472338895acce5d993355f57ec2d13e83a35be4778",
+    "481_R5G_predeclared_protocol.json": "bfe9fbcb37cc8a22ae5487bbe402d1e489fb9162c267b6f4125e154aa8e305f5",
+    "483_R5G_gene_embeddings.npy": "5f3412c3c402eb41bb583d764e0fc67b5af66fe5a3a013c8264749062dcf79ee",
+    "486_R5G_patient_projection.npy": "00d5d582cf078dda3b72b1d6734f6082d1a36114d677a7e277307bf1cff68185",
+    "488_R5G_cross_cohort_MNN_edges.csv": "d1c87985d982fa63c66d7dbf517d46229553279cc11d770c043e11945cf885a8",
+    "489_R5G_Leiden_raw_assignments.csv": "797890978039cd710bd2642afe030e27cb648e7f335d140ec96986463bf2e4bd",
+    "492_R5G_recurrent_state_patient_assignments.csv": "765facf2bdc0e81f7eefaa7561411f694eac95c0b482d7177f77356bf7cf7876",
+    "497_R5G_manifest.csv": "b45a4991da7acdd653428344f2c4bd1b8912f2323a8b8ce4997c81b8954c9677",
+    "752_R10A_original_R5G_fidelity.csv": "5dba96f144c107c357ec9038e38ff9647d072ae900364d5fc89ee555cf860f74"
+  },
+  "positive_target": "FROZEN ORIGINAL BIOLOGICAL NONSELF EDGES IN ALL ARMS",
+  "primary_descriptive_metrics": [
+    "recurrent_coverage",
+    "recurrent_states_n",
+    "median_recurrent_stability",
+    "state_cohort_NMI_descriptive"
+  ],
+  "question": "Does relational graph message passing help recurrent discovery states?",
+  "relations": [
+    "signaling",
+    "PPI",
+    "TF_regulation",
+    "kinase_substrate"
+  ],
+  "seeds": [
+    20261031,
+    20261101,
+    20261102
+  ],
+  "status": "RETROSPECTIVE_EXPLORATORY_INTERNAL_DISCOVERY"
+}

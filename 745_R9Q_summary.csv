@@ -1,0 +1,12 @@
+metric,value
+protocol_id,AML_GRAPHRX_R9Q_CELLSTATE_CONDITIONAL_BEATAML_V1
+analysis_type,post-hoc conditional sensitivity on previously used BeatAML
+BeatAML_subjects_n,560
+Waves1+2_n,372
+Waves3+4_n,188
+pooled_raw_rho_reproduced,-0.6853854763567486
+descriptive_fisher_weighted_conditional_r,-0.6884988264428705
+both_wave_conditional_r_negative,True
+both_wave_bootstrap_upper_below_zero,True
+both_wave_permutation_BH_le_005,True
+claim_boundary,"Within-BeatAML conditional transcriptomic association only; not evidence of GNN advantage, orthogonal mechanism, prognostic value or drug sensitivity."

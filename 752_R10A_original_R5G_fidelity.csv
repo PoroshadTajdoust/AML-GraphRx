@@ -1,0 +1,2 @@
+GNN_projection_max_abs_delta,GNN_MNN_edges_recomputed_n,GNN_MNN_edges_frozen_n,GNN_MNN_edge_jaccard,GNN_recomputed_vs_original_Leiden_ARI,R5G_exact_reproduction_pass
+8.0466270446777344e-07,19797,19797,1,1,True

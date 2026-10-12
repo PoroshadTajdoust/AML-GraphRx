@@ -1,0 +1,14 @@
+metric,value
+GPL96_source_profiles,422
+GPL97_source_profiles,422
+GPL570_source_profiles,140
+paired_analysis_units,422
+GPL570_independent_analysis_units,140
+final_analysis_units,562
+GPL96_genes,12378
+GPL97_genes,9781
+GPL96_GPL97_overlap_genes,4273
+GPL96_GPL97_pair_union_genes,17886
+GPL570_genes,17886
+final_GSE37642_union_genes,17886
+genes_observed_in_all_562_units,17886

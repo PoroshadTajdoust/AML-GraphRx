@@ -1,0 +1,16 @@
+gse,analysis_role,n_source_profiles,n_analysis_units,source_profiles_per_unit_min,source_profiles_per_unit_max,n_genes,rank_min,rank_max,missing_fraction,merge_verified
+GSE13159,discovery,2096,2096,1,1,20024,9.98851320980872e-5,1,0,TRUE
+GSE6891,discovery,537,537,1,1,20024,0,1,0,TRUE
+GSE15434,discovery,251,251,1,1,20024,0,1,0,TRUE
+GSE114868,discovery,214,214,1,1,21936,0,1,0,TRUE
+GSE71014,discovery,104,104,1,1,23742,0,1,8.002695644848791e-4,TRUE
+GSE9476,discovery,64,64,1,1,12378,0,1,0,TRUE
+GSE1729,discovery,43,43,1,1,12378,0,1,0,TRUE
+GSE37021,discovery,97,97,1,1,19099,0,1,0,TRUE
+GSE34860,discovery,78,78,1,1,12378,0,1,0,TRUE
+GSE161532,discovery,61,61,1,1,21936,0,1,0,TRUE
+GSE201492,discovery,157,157,1,1,34922,0.14396781306377252,1,0,TRUE
+GSE17855,locked_external,237,237,1,1,20024,0,1,0,TRUE
+GSE110087,therapy_external,41,41,1,1,20024,0,1,0,TRUE
+GSE108003,therapy_external,24,12,2,2,25019,0.18118954352865935,1,0,TRUE
+GSE37642,discovery,984,562,1,2,17886,0,1,0,TRUE

@@ -1,0 +1,4 @@
+arm,seeds,mean_coverage,median_coverage,mean_recurrent_states,median_recurrent_stability,mean_cohort_NMI,GRAPH_TOPOLOGY_SUPERIORITY_ESTABLISHED,reason
+DEGREE_PRESERVING_REWIRE,3,0.3904597037891902,0.29313329486439699,2.6666666666666665,0.7276154401154401,0.0081514377554591736,False,Internal retrospective 3-seed ablation; no independent matched external transport test or causal graph-specific inference
+NO_MESSAGE_PASSING,3,0.38161184843239077,0.36122331217541837,2,0.81619062901155326,0.01445906297965464,False,Internal retrospective 3-seed ablation; no independent matched external transport test or causal graph-specific inference
+REAL_GRAPH,3,0.85670321215618384,0.95268320830929021,6,0.78779932945749365,0.012950957180785365,False,Internal retrospective 3-seed ablation; no independent matched external transport test or causal graph-specific inference

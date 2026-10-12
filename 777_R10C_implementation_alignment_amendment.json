@@ -1,0 +1,14 @@
+{
+  "changes_to_training_or_clustering_thresholds": false,
+  "comparison_remains": "retrospective internal discovery only",
+  "correction_1": "Pass locked F483 embedding into patient_projection unchanged, matching R10B.",
+  "correction_2": "Pass nine R10B saved embeddings into patient_projection unchanged, matching R10B.",
+  "correction_3": "Reproduce R10B descriptive ARI from recurrent-only labels, not raw all-patient labels.",
+  "existing_protocol_768_or_parent_integrity_769_modified": false,
+  "failed_first_run_stage": "ORIGINAL_R5G_PROJECTION_FIDELITY",
+  "frozen_parent_files_modified": false,
+  "original_R10C_script_sha256": "1a6611766ace5d13883b2cd6b717e8ecbbda6ccc251d949dd63e9a0a932c1a2d",
+  "prior_cross_seed_results_produced": false,
+  "reason": "R10C mistakenly re-standardized frozen R5G and R10B embeddings a second time.",
+  "record_type": "IMPLEMENTATION_ONLY_CORRECTION"
+}

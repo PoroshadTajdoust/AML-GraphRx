@@ -1,0 +1,12 @@
+metric,value
+analysis_id,AML_GRAPHRX_R10A_GENE_FIRST_DISCOVERY_REPRESENTATION_ABLATION_V1
+scope,Same R5G discovery AML; retrospective representation ablation
+original_R5G_fidelity_pass,True
+GNN32_recurrent_states,6
+GNN32_recurrent_coverage,0.9924985574148875
+GNN32_cohort_NMI,0.006042148552179825
+GNN32_versus_PCA32_delta_coverage,0.6128101557991921
+independent_state_transport_comparison_completed,False
+GNN32_SUPERIORITY_ESTABLISHED,False
+reason_for_false_superiority_flag,No independent external state-transfer endpoint or fair graph-edge causal intervention; discovery clustering metrics alone cannot establish superiority
+R5G_R7A2_R7B2_R7C_R8H2_inputs_changed,False
