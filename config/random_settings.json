@@ -1,0 +1,152 @@
+[
+  {
+    "analysis": "gene_discovery",
+    "constants": {
+      "SEED": 20261004,
+      "BOOTSTRAPS": 30,
+      "BOOTSTRAP_EDGE_KEEP_FRACTION": 0.8,
+      "MIN_BOOTSTRAP_JACCARD": 0.6,
+      "GRAPH_PERMUTATIONS": 200
+    }
+  },
+  {
+    "analysis": "frozen_assignment",
+    "constants": {
+      "SEED": 20261005,
+      "BOOTSTRAPS": 1000
+    }
+  },
+  {
+    "analysis": "state_enrichment",
+    "constants": {
+      "SEED": 20261005,
+      "GSEA_PERMUTATIONS": 1000
+    }
+  },
+  {
+    "analysis": "pathway_contrast",
+    "constants": {
+      "SEED": 20261006,
+      "N_PERM": 1000
+    }
+  },
+  {
+    "analysis": "clinical_annotations",
+    "constants": {}
+  },
+  {
+    "analysis": "cohort_transfer",
+    "constants": {
+      "SEED": 20261009,
+      "BOOTSTRAPS": 30,
+      "BOOTSTRAP_EDGE_KEEP_FRACTION": 0.8,
+      "MIN_BOOTSTRAP_JACCARD": 0.6
+    }
+  },
+  {
+    "analysis": "cross_fitted_gene_axis",
+    "constants": {}
+  },
+  {
+    "analysis": "freeze_pathway_axis",
+    "constants": {}
+  },
+  {
+    "analysis": "external_rnaseq",
+    "constants": {
+      "BOOTSTRAP_N": 1000,
+      "BOOTSTRAP_SEED": 20261009,
+      "MIN_BOOTSTRAP_NEGATIVE_FRACTION": 0.95
+    }
+  },
+  {
+    "analysis": "gene_label_null",
+    "constants": {
+      "N_PERM_PRIMARY": 1000,
+      "N_PERM_SECONDARY": 1000,
+      "SEED_PRIMARY": 20261010,
+      "SEED_SECONDARY": 20261011,
+      "PERM_BATCH": 40
+    }
+  },
+  {
+    "analysis": "mutation_context",
+    "constants": {
+      "RIDGE_SEED": 20261010
+    }
+  },
+  {
+    "analysis": "cell_state_context",
+    "constants": {
+      "RIDGE_SEED": 20261010
+    }
+  },
+  {
+    "analysis": "dependency_context",
+    "constants": {
+      "FOCUSED_BOOTSTRAPS": 1000,
+      "FOCUSED_BOOTSTRAP_SEED": 20261010
+    }
+  },
+  {
+    "analysis": "global_response",
+    "constants": {
+      "BOOTSTRAP_N": 2000,
+      "SEED": 20261010
+    }
+  },
+  {
+    "analysis": "conditional_association",
+    "constants": {
+      "SEED": 20261010,
+      "N_BOOT": 2000,
+      "N_PERM": 2000
+    }
+  },
+  {
+    "analysis": "representation_ablation",
+    "constants": {
+      "SEED": 20261004,
+      "N_BOOT": 30,
+      "RAND_SEEDS": [
+        20261011,
+        20261012,
+        20261013,
+        20261014,
+        20261015
+      ],
+      "SHUFFLE_SEEDS": [
+        20261021,
+        20261022,
+        20261023,
+        20261024,
+        20261025
+      ]
+    }
+  },
+  {
+    "analysis": "message_ablation",
+    "constants": {
+      "SEEDS": [
+        20261031,
+        20261101,
+        20261102
+      ],
+      "N_BOOT": 30,
+      "SPLIT_SEED": 20261004,
+      "REWIRE_SEED": 20261029
+    }
+  },
+  {
+    "analysis": "cross_seed_consistency",
+    "constants": {
+      "SEEDS": [
+        20261031,
+        20261101,
+        20261102
+      ],
+      "N_BOOT": 30,
+      "SPLIT_SEED": 20261004
+    }
+  }
+]

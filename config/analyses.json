@@ -1,0 +1,110 @@
+[
+  {
+    "id": "gene_discovery",
+    "file": "analysis/gene_discovery.py",
+    "description": "Original gene encoder, discovery and signatures",
+    "manuscript_location": "Methods 2.3–2.4, 2.7; Results 3.1; Figure 2; Table S2"
+  },
+  {
+    "id": "frozen_assignment",
+    "file": "analysis/frozen_assignment.py",
+    "description": "Frozen three-cohort assessment, with the executed join repair",
+    "manuscript_location": "Methods 2.1, 2.10; Table S3"
+  },
+  {
+    "id": "state_enrichment",
+    "file": "analysis/state_enrichment.py",
+    "description": "Frozen Reactome and GO enrichment",
+    "manuscript_location": "Methods 2.7; Results 3.5; Figure 4"
+  },
+  {
+    "id": "pathway_contrast",
+    "file": "analysis/pathway_contrast.py",
+    "description": "S03/S06 expression and shared-pathway contrast only",
+    "manuscript_location": "Methods 2.7; Results 3.5; Figure 4"
+  },
+  {
+    "id": "clinical_annotations",
+    "file": "analysis/clinical_annotations.py",
+    "description": "Verified analysis-unit merge and corrected odds-ratio labels",
+    "manuscript_location": "Methods 2.10; Table S7A; Figure S2"
+  },
+  {
+    "id": "cohort_transfer",
+    "file": "analysis/cohort_transfer.py",
+    "description": "Corrective leave-one-cohort-out assessment",
+    "manuscript_location": "Methods 2.10; Table S3; Figure S1"
+  },
+  {
+    "id": "cross_fitted_gene_axis",
+    "file": "analysis/cross_fitted_gene_axis.py",
+    "description": "Recorded cross-fitted gene-axis assessment",
+    "manuscript_location": "Table S3"
+  },
+  {
+    "id": "freeze_pathway_axis",
+    "file": "analysis/freeze_pathway_axis.py",
+    "description": "Frozen component-balanced pathway definition",
+    "manuscript_location": "Methods 2.7; Results 3.5; Figure S1"
+  },
+  {
+    "id": "external_rnaseq",
+    "file": "analysis/external_rnaseq.py",
+    "description": "Executed BeatAML mapping amendment and external scoring",
+    "manuscript_location": "Methods 2.8; Results 3.6; Figure 5; Table 4A"
+  },
+  {
+    "id": "gene_label_null",
+    "file": "analysis/gene_label_null.py",
+    "description": "Rank-matched and secondary global gene-label nulls",
+    "manuscript_location": "Methods 2.8; Results 3.6; Table S1B"
+  },
+  {
+    "id": "mutation_context",
+    "file": "analysis/mutation_context.py",
+    "description": "Mutation associations and training-only ridge model",
+    "manuscript_location": "Methods 2.9; Results 3.8; Table S3"
+  },
+  {
+    "id": "cell_state_context",
+    "file": "analysis/cell_state_context.py",
+    "description": "Corrected six-score malignant-cell-state analysis",
+    "manuscript_location": "Methods 2.9; Results 3.8; Figure 6; Table S6"
+  },
+  {
+    "id": "dependency_context",
+    "file": "analysis/dependency_context.py",
+    "description": "Frozen DepMap candidate-family analysis",
+    "manuscript_location": "Table S7B; Figure S4"
+  },
+  {
+    "id": "global_response",
+    "file": "analysis/global_response.py",
+    "description": "Global held-out response comparison",
+    "manuscript_location": "Supplementary methods; Table S7B; Figure S4"
+  },
+  {
+    "id": "conditional_association",
+    "file": "analysis/conditional_association.py",
+    "description": "Six-covariate rank adjustment and resampling",
+    "manuscript_location": "Methods 2.9; Results 3.7; Figure 5D; Table 4B"
+  },
+  {
+    "id": "representation_ablation",
+    "file": "analysis/representation_ablation.py",
+    "description": "Original/PCA/Gaussian/gene-row-shuffled bases",
+    "manuscript_location": "Methods 2.5; Results 3.2; Figure 2; Table S4A"
+  },
+  {
+    "id": "message_ablation",
+    "file": "analysis/message_ablation.py",
+    "description": "Three paired seeds and three message-graph conditions",
+    "manuscript_location": "Methods 2.5; Results 3.3; Figure 3; Table S4B"
+  },
+  {
+    "id": "cross_seed_consistency",
+    "file": "analysis/cross_seed_consistency.py",
+    "description": "Amended raw-latent cross-seed comparison",
+    "manuscript_location": "Methods 2.6; Results 3.4; Figure 3; Table S5"
+  }
+]
