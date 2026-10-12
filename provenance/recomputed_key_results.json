@@ -1,0 +1,90 @@
+{
+  "scope": "Recalculate conditional coefficients, stored bootstrap quantiles and matched Jaccards only. No GNN, partitioning or new bootstrap run.",
+  "R9Q": [
+    {
+      "wave": "Waves1+2",
+      "n": 372,
+      "recomputed_r": -0.7001356923060876,
+      "stored_bootstrap_95_interval": [
+        -0.7494531252326078,
+        -0.640670148371385
+      ],
+      "verified": true
+    },
+    {
+      "wave": "Waves3+4",
+      "n": 188,
+      "recomputed_r": -0.6637723136946927,
+      "stored_bootstrap_95_interval": [
+        -0.7455638186983822,
+        -0.5660133073868524
+      ],
+      "verified": true
+    }
+  ],
+  "R10C": [
+    {
+      "arm": "DEGREE_PRESERVING_REWIRE",
+      "seed_a": 20261031,
+      "seed_b": 20261101,
+      "weighted_jaccard": 0.20526119313652824,
+      "verified": true
+    },
+    {
+      "arm": "DEGREE_PRESERVING_REWIRE",
+      "seed_a": 20261031,
+      "seed_b": 20261102,
+      "weighted_jaccard": 0.03392227787052492,
+      "verified": true
+    },
+    {
+      "arm": "DEGREE_PRESERVING_REWIRE",
+      "seed_a": 20261101,
+      "seed_b": 20261102,
+      "weighted_jaccard": 0.010230660965734368,
+      "verified": true
+    },
+    {
+      "arm": "NO_MESSAGE_PASSING",
+      "seed_a": 20261031,
+      "seed_b": 20261101,
+      "weighted_jaccard": 0.31399691793713536,
+      "verified": true
+    },
+    {
+      "arm": "NO_MESSAGE_PASSING",
+      "seed_a": 20261031,
+      "seed_b": 20261102,
+      "weighted_jaccard": 0.13921671595588841,
+      "verified": true
+    },
+    {
+      "arm": "NO_MESSAGE_PASSING",
+      "seed_a": 20261101,
+      "seed_b": 20261102,
+      "weighted_jaccard": 0.37043137944684246,
+      "verified": true
+    },
+    {
+      "arm": "REAL_GRAPH",
+      "seed_a": 20261031,
+      "seed_b": 20261101,
+      "weighted_jaccard": 0.2676246510630234,
+      "verified": true
+    },
+    {
+      "arm": "REAL_GRAPH",
+      "seed_a": 20261031,
+      "seed_b": 20261102,
+      "weighted_jaccard": 0.22892518160244096,
+      "verified": true
+    },
+    {
+      "arm": "REAL_GRAPH",
+      "seed_a": 20261101,
+      "seed_b": 20261102,
+      "weighted_jaccard": 0.3723494541000703,
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,1280 @@
+[
+  {
+    "analysis": "gene_discovery",
+    "file": "analysis/gene_discovery.py",
+    "source": [
+      {
+        "notebook": "Untitled2(1).ipynb",
+        "cell_index_zero_based": 6,
+        "notebook_sha256": "b8996ba106501104b9b0c2ac7e6c563dd26dad1ff97c0919785f91da0decc5ba",
+        "source_cell_sha256": "1f530bab5904fc9214837aa967fea0038f836b3e33ff871e982cf53e7f7f57a4"
+      }
+    ],
+    "packaged_sha256": "10cec8d4b4b2b802409344d6a8a13355c6ce1c922754e64a7ea3c6fb0f5a4ed8",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT",
+      "In-analysis pip install replaced by explicit dependency error"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha256_file",
+        "unchanged_ast": true
+      },
+      {
+        "name": "json_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "csv_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "atomic_write",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_once_or_verify",
+        "unchanged_ast": true
+      },
+      {
+        "name": "atomic_numpy_save",
+        "unchanged_ast": true
+      },
+      {
+        "name": "bh_fdr",
+        "unchanged_ast": true
+      },
+      {
+        "name": "GeneRGAE",
+        "unchanged_ast": true
+      },
+      {
+        "name": "add_gate",
+        "unchanged_ast": true
+      },
+      {
+        "name": "add_manifest",
+        "unchanged_ast": true
+      }
+    ]
+  },
+  {
+    "analysis": "frozen_assignment",
+    "file": "analysis/frozen_assignment.py",
+    "source": [
+      {
+        "notebook": "Untitled2(1).ipynb",
+        "cell_index_zero_based": 9,
+        "notebook_sha256": "b8996ba106501104b9b0c2ac7e6c563dd26dad1ff97c0919785f91da0decc5ba",
+        "source_cell_sha256": "46d2ddd34b70600f0933644beec518683f7560fd4a1374c7ddf4fa8dea79baaa"
+      },
+      {
+        "notebook": "Untitled2(1).ipynb",
+        "cell_index_zero_based": 10,
+        "notebook_sha256": "b8996ba106501104b9b0c2ac7e6c563dd26dad1ff97c0919785f91da0decc5ba",
+        "source_cell_sha256": "0e3db3ecc123f79732070ec530c08c8d0e7d1f44886806dd0f09a4162b1c7740"
+      }
+    ],
+    "packaged_sha256": "5607eeb51a9a5715fbb83056b7fe99f17e6a76262f73e086fa6ce823600fb544",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha256_file",
+        "unchanged_ast": true
+      },
+      {
+        "name": "json_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "csv_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "atomic_write",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_once_or_verify",
+        "unchanged_ast": true
+      },
+      {
+        "name": "bh_fdr",
+        "unchanged_ast": true
+      },
+      {
+        "name": "bool_from_cell",
+        "unchanged_ast": true
+      },
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha256_file",
+        "unchanged_ast": true
+      },
+      {
+        "name": "csv_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "atomic_write",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_once_or_verify",
+        "unchanged_ast": true
+      },
+      {
+        "name": "to_bool",
+        "unchanged_ast": true
+      },
+      {
+        "name": "clean_gene_id",
+        "unchanged_ast": true
+      },
+      {
+        "name": "add_gate",
+        "unchanged_ast": true
+      },
+      {
+        "name": "add_manifest",
+        "unchanged_ast": true
+      }
+    ]
+  },
+  {
+    "analysis": "state_enrichment",
+    "file": "analysis/state_enrichment.py",
+    "source": [
+      {
+        "notebook": "Untitled2(1).ipynb",
+        "cell_index_zero_based": 11,
+        "notebook_sha256": "b8996ba106501104b9b0c2ac7e6c563dd26dad1ff97c0919785f91da0decc5ba",
+        "source_cell_sha256": "468a5065d853442429950555e54ebf044b3b9295611e07a3a5bf5457d5f869cf"
+      }
+    ],
+    "packaged_sha256": "7c29f689f68c0fbfe632b40922bf023c1007c6de5061a1b000f63422a636e00a",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT",
+      "In-analysis pip install replaced by explicit dependency error"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha256_file",
+        "unchanged_ast": true
+      },
+      {
+        "name": "json_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "csv_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "atomic_write",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_once_or_verify",
+        "unchanged_ast": true
+      },
+      {
+        "name": "bool_series",
+        "unchanged_ast": true
+      },
+      {
+        "name": "bh_fdr",
+        "unchanged_ast": true
+      },
+      {
+        "name": "normalize_gene_id",
+        "unchanged_ast": true
+      },
+      {
+        "name": "locate_unique_snapshot",
+        "unchanged_ast": true
+      },
+      {
+        "name": "attach_symbols",
+        "unchanged_ast": true
+      },
+      {
+        "name": "read_gmt_lines",
+        "unchanged_ast": true
+      },
+      {
+        "name": "effective_sets",
+        "unchanged_ast": true
+      },
+      {
+        "name": "load_frozen_library",
+        "unchanged_ast": true
+      },
+      {
+        "name": "find_result_column",
+        "unchanged_ast": true
+      },
+      {
+        "name": "normalize_gsea_results",
+        "unchanged_ast": true
+      },
+      {
+        "name": "run_ora",
+        "unchanged_ast": true
+      },
+      {
+        "name": "add_gate",
+        "unchanged_ast": true
+      },
+      {
+        "name": "add_manifest",
+        "unchanged_ast": true
+      }
+    ]
+  },
+  {
+    "analysis": "pathway_contrast",
+    "file": "analysis/pathway_contrast.py",
+    "source": [
+      {
+        "notebook": "Untitled2(1).ipynb",
+        "cell_index_zero_based": 12,
+        "notebook_sha256": "b8996ba106501104b9b0c2ac7e6c563dd26dad1ff97c0919785f91da0decc5ba",
+        "source_cell_sha256": "d29e44acc94d5f7b3c2530e802d55367d7f52e507a3eaca07ca71f4626394491"
+      }
+    ],
+    "packaged_sha256": "72e216bb7c5f31658bfb062ad068c69254ac339cc3379c9b61ba43d1cdfac3ab",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha256_file",
+        "unchanged_ast": true
+      },
+      {
+        "name": "json_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "csv_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "atomic_write",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_once_or_verify",
+        "unchanged_ast": true
+      },
+      {
+        "name": "bool_series",
+        "unchanged_ast": true
+      },
+      {
+        "name": "normalize_gene_id",
+        "unchanged_ast": true
+      },
+      {
+        "name": "parse_gene_list",
+        "unchanged_ast": true
+      },
+      {
+        "name": "bh_fdr",
+        "unchanged_ast": true
+      },
+      {
+        "name": "verify_in_manifest",
+        "unchanged_ast": true
+      },
+      {
+        "name": "add_symbol",
+        "unchanged_ast": true
+      },
+      {
+        "name": "classify_gene",
+        "unchanged_ast": true
+      },
+      {
+        "name": "pathway_overlap",
+        "unchanged_ast": true
+      }
+    ]
+  },
+  {
+    "analysis": "clinical_annotations",
+    "file": "analysis/clinical_annotations.py",
+    "source": [
+      {
+        "notebook": "historical_Untitled2.ipynb",
+        "cell_index_zero_based": 19,
+        "notebook_sha256": "9da0ab5bef36d7884ebdf8c4465859b03969388a1abb551fd7c6c783d9cd0d02",
+        "source_cell_sha256": "abfca2d0f6072c3954b9a97b18d4ae38b81584293694e823fa40286b247012fd"
+      },
+      {
+        "notebook": "historical_Untitled2.ipynb",
+        "cell_index_zero_based": 21,
+        "notebook_sha256": "9da0ab5bef36d7884ebdf8c4465859b03969388a1abb551fd7c6c783d9cd0d02",
+        "source_cell_sha256": "8e1ab254bf59d38787d466592627168a5c33e73441ad65993e0317c371aef4dc"
+      },
+      {
+        "notebook": "historical_Untitled2.ipynb",
+        "cell_index_zero_based": 22,
+        "notebook_sha256": "9da0ab5bef36d7884ebdf8c4465859b03969388a1abb551fd7c6c783d9cd0d02",
+        "source_cell_sha256": "0320d77994b0bdf64a863bc8655cdfe323028ef9771f3fc1b6aea5397db6d135"
+      },
+      {
+        "notebook": "historical_Untitled2.ipynb",
+        "cell_index_zero_based": 23,
+        "notebook_sha256": "9da0ab5bef36d7884ebdf8c4465859b03969388a1abb551fd7c6c783d9cd0d02",
+        "source_cell_sha256": "94972d1ba1238fda2dfe1b2a9a6c02ebc1b251fca0e01bb46db8279c7a1848e2"
+      }
+    ],
+    "packaged_sha256": "456598486bc0f5e8f960676df7d678f77d86910bfcdb3b0db9ffbe991825025b",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "sha256_file",
+        "unchanged_ast": true
+      },
+      {
+        "name": "find_exact_file",
+        "unchanged_ast": true
+      },
+      {
+        "name": "clean_text",
+        "unchanged_ast": true
+      },
+      {
+        "name": "clean_binary",
+        "unchanged_ast": true
+      },
+      {
+        "name": "rank_biserial_from_u",
+        "unchanged_ast": true
+      },
+      {
+        "name": "fmt_binary",
+        "unchanged_ast": true
+      },
+      {
+        "name": "fmt_missing",
+        "unchanged_ast": true
+      },
+      {
+        "name": "interpret",
+        "unchanged_ast": true
+      }
+    ]
+  },
+  {
+    "analysis": "cohort_transfer",
+    "file": "analysis/cohort_transfer.py",
+    "source": [
+      {
+        "notebook": "last try  (1)(1).ipynb",
+        "cell_index_zero_based": 0,
+        "notebook_sha256": "b04016fd986486abe6de818afee9d5d43d2b352c7440d469597dc684b482dcfd",
+        "source_cell_sha256": "36a171dca6596a71267c284eaa0f2dd73b78b6f24b131373b306132fabefb1c1"
+      }
+    ],
+    "packaged_sha256": "8f4f09537106f6c2eb5eca0c13ab37ead76297be880111fee7edebe02b286759",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT",
+      "In-analysis pip install replaced by explicit dependency error"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "ensure_import",
+        "unchanged_ast": false
+      },
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha256_file",
+        "unchanged_ast": true
+      },
+      {
+        "name": "bh_fdr",
+        "unchanged_ast": true
+      },
+      {
+        "name": "canonical_json_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "canonical_csv_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_once_or_verify_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_csv",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_json",
+        "unchanged_ast": true
+      },
+      {
+        "name": "save_npz_once",
+        "unchanged_ast": true
+      },
+      {
+        "name": "l2_normalize_rows",
+        "unchanged_ast": true
+      },
+      {
+        "name": "l2_normalize_vector",
+        "unchanged_ast": true
+      },
+      {
+        "name": "shannon_entropy_normalized",
+        "unchanged_ast": true
+      },
+      {
+        "name": "TransformParams",
+        "unchanged_ast": true
+      },
+      {
+        "name": "raw_projection",
+        "unchanged_ast": true
+      },
+      {
+        "name": "fit_transform_params",
+        "unchanged_ast": true
+      },
+      {
+        "name": "apply_transform",
+        "unchanged_ast": true
+      },
+      {
+        "name": "build_cross_cohort_mnn",
+        "unchanged_ast": true
+      },
+      {
+        "name": "leiden_and_recurrence",
+        "unchanged_ast": true
+      },
+      {
+        "name": "fit_centroids_and_thresholds",
+        "unchanged_ast": true
+      },
+      {
+        "name": "assign_by_centroid",
+        "unchanged_ast": true
+      },
+      {
+        "name": "build_state_signatures",
+        "unchanged_ast": true
+      }
+    ]
+  },
+  {
+    "analysis": "cross_fitted_gene_axis",
+    "file": "analysis/cross_fitted_gene_axis.py",
+    "source": [
+      {
+        "notebook": "last try  (1)(1).ipynb",
+        "cell_index_zero_based": 1,
+        "notebook_sha256": "b04016fd986486abe6de818afee9d5d43d2b352c7440d469597dc684b482dcfd",
+        "source_cell_sha256": "6a350d549e978640c78802aed8d862bf0843e0aadc827d6702b2298d966908fa"
+      }
+    ],
+    "packaged_sha256": "5450fdf9eb15858da007e9aa72d294ce71edc1cfcb59ab1c566826e5e31fbdc4",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha256_file",
+        "unchanged_ast": true
+      },
+      {
+        "name": "find_exact",
+        "unchanged_ast": true
+      },
+      {
+        "name": "bh_fdr",
+        "unchanged_ast": true
+      },
+      {
+        "name": "canonical_json_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "strict_write_json",
+        "unchanged_ast": true
+      },
+      {
+        "name": "strict_write_csv",
+        "unchanged_ast": true
+      },
+      {
+        "name": "jaccard",
+        "unchanged_ast": true
+      },
+      {
+        "name": "robust_iqr",
+        "unchanged_ast": true
+      },
+      {
+        "name": "rank_biserial_from_u",
+        "unchanged_ast": true
+      },
+      {
+        "name": "pair_meta_contrast",
+        "unchanged_ast": true
+      },
+      {
+        "name": "select_axis_pair",
+        "unchanged_ast": true
+      },
+      {
+        "name": "score_axis",
+        "unchanged_ast": true
+      }
+    ]
+  },
+  {
+    "analysis": "freeze_pathway_axis",
+    "file": "analysis/freeze_pathway_axis.py",
+    "source": [
+      {
+        "notebook": "last try  (1)(1).ipynb",
+        "cell_index_zero_based": 2,
+        "notebook_sha256": "b04016fd986486abe6de818afee9d5d43d2b352c7440d469597dc684b482dcfd",
+        "source_cell_sha256": "d6d35392e0735595a67738aabfa0e364f9930fbbf8393c8a33298497d0eb4f0f"
+      }
+    ],
+    "packaged_sha256": "0d38519870071887f67da96e1a42d60e22360c0e9a520aa88d3be8b34b39bd65",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha256_file",
+        "unchanged_ast": true
+      },
+      {
+        "name": "find_exact",
+        "unchanged_ast": true
+      },
+      {
+        "name": "canonical_json_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "csv_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "atomic_write",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_once_or_verify",
+        "unchanged_ast": true
+      },
+      {
+        "name": "parse_gene_list",
+        "unchanged_ast": true
+      },
+      {
+        "name": "normalize_gene_id",
+        "unchanged_ast": true
+      },
+      {
+        "name": "jaccard",
+        "unchanged_ast": true
+      },
+      {
+        "name": "robust_iqr",
+        "unchanged_ast": true
+      },
+      {
+        "name": "epsilon_squared_kw",
+        "unchanged_ast": true
+      },
+      {
+        "name": "UnionFind",
+        "unchanged_ast": true
+      },
+      {
+        "name": "score_samples",
+        "unchanged_ast": true
+      }
+    ]
+  },
+  {
+    "analysis": "external_rnaseq",
+    "file": "analysis/external_rnaseq.py",
+    "source": [
+      {
+        "notebook": "last try  (1)(1).ipynb",
+        "cell_index_zero_based": 6,
+        "notebook_sha256": "b04016fd986486abe6de818afee9d5d43d2b352c7440d469597dc684b482dcfd",
+        "source_cell_sha256": "b5c5e95ff345a3cf07c6cda58bfeb00157856ab90c12495b6ee3a69963bf95ef"
+      }
+    ],
+    "packaged_sha256": "6fcec16cb012faad519bd202057903563a156df586abf905648bfb20891eba4b",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_BEATAML_DIR",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha256_file",
+        "unchanged_ast": true
+      },
+      {
+        "name": "normalize_gene_id",
+        "unchanged_ast": true
+      },
+      {
+        "name": "robust_iqr",
+        "unchanged_ast": true
+      },
+      {
+        "name": "bh_fdr",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_json",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_csv",
+        "unchanged_ast": true
+      }
+    ]
+  },
+  {
+    "analysis": "gene_label_null",
+    "file": "analysis/gene_label_null.py",
+    "source": [
+      {
+        "notebook": "last try  (1)(1).ipynb",
+        "cell_index_zero_based": 7,
+        "notebook_sha256": "b04016fd986486abe6de818afee9d5d43d2b352c7440d469597dc684b482dcfd",
+        "source_cell_sha256": "bc9f6052185e4c8922893a7583a94e9a2c525a4e4ed512a93215a5c97694437e"
+      }
+    ],
+    "packaged_sha256": "50e5e401515a944b44b6ed3c41357a1f9e0bd5d4bad6a405847e2fb919bee5c8",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_BEATAML_DIR",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha256_file",
+        "unchanged_ast": true
+      },
+      {
+        "name": "canonical_json_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "csv_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_once_or_verify",
+        "unchanged_ast": true
+      },
+      {
+        "name": "bh_fdr",
+        "unchanged_ast": true
+      },
+      {
+        "name": "empirical_p_lower",
+        "unchanged_ast": true
+      },
+      {
+        "name": "spearman_cols",
+        "unchanged_ast": true
+      },
+      {
+        "name": "run",
+        "unchanged_ast": true
+      },
+      {
+        "name": "make_permutation",
+        "unchanged_ast": true
+      },
+      {
+        "name": "run_null",
+        "unchanged_ast": true
+      }
+    ]
+  },
+  {
+    "analysis": "mutation_context",
+    "file": "analysis/mutation_context.py",
+    "source": [
+      {
+        "notebook": "last try  (1)(1).ipynb",
+        "cell_index_zero_based": 8,
+        "notebook_sha256": "b04016fd986486abe6de818afee9d5d43d2b352c7440d469597dc684b482dcfd",
+        "source_cell_sha256": "d56089f258abd4e65bb47d6988e7d4aa95b268ea9d4f7cabca47bd044360195d"
+      }
+    ],
+    "packaged_sha256": "93feaaf305494894596706655b6c68605bd2c20215734a487889573949c47a88",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_BEATAML_DIR",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha256_file",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_json",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_csv",
+        "unchanged_ast": true
+      },
+      {
+        "name": "bh_fdr",
+        "unchanged_ast": true
+      },
+      {
+        "name": "rank_biserial_from_u",
+        "unchanged_ast": true
+      },
+      {
+        "name": "run",
+        "unchanged_ast": true
+      },
+      {
+        "name": "positive_string",
+        "unchanged_ast": true
+      }
+    ]
+  },
+  {
+    "analysis": "cell_state_context",
+    "file": "analysis/cell_state_context.py",
+    "source": [
+      {
+        "notebook": "last try  (1)(1).ipynb",
+        "cell_index_zero_based": 10,
+        "notebook_sha256": "b04016fd986486abe6de818afee9d5d43d2b352c7440d469597dc684b482dcfd",
+        "source_cell_sha256": "a8a246f3ee3f09a8f354b4e25c30795afda3da63ebfb81308e83c27826686dd5"
+      }
+    ],
+    "packaged_sha256": "37cfdb195b571b578c31be75fefb66c0f87d9f59840adb2b40b8d49c1ac463fb",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_BEATAML_DIR",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha256_file",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_json",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_csv",
+        "unchanged_ast": true
+      },
+      {
+        "name": "bh_fdr",
+        "unchanged_ast": true
+      },
+      {
+        "name": "norm_name",
+        "unchanged_ast": true
+      },
+      {
+        "name": "run",
+        "unchanged_ast": true
+      },
+      {
+        "name": "canonical_celltype",
+        "unchanged_ast": true
+      }
+    ]
+  },
+  {
+    "analysis": "dependency_context",
+    "file": "analysis/dependency_context.py",
+    "source": [
+      {
+        "notebook": "last try  (1)(1).ipynb",
+        "cell_index_zero_based": 11,
+        "notebook_sha256": "b04016fd986486abe6de818afee9d5d43d2b352c7440d469597dc684b482dcfd",
+        "source_cell_sha256": "50d56e18490fae7dcc4510b5337b8f07a815aeee3419d83df4e1d3b3313cb28e"
+      }
+    ],
+    "packaged_sha256": "42297a4dd168e8e61f411b80b881764e340fac84c48c3b408170820d259af252",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha256_file",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_json",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_csv",
+        "unchanged_ast": true
+      },
+      {
+        "name": "bool_series",
+        "unchanged_ast": true
+      },
+      {
+        "name": "bh_fdr",
+        "unchanged_ast": true
+      },
+      {
+        "name": "robust_iqr",
+        "unchanged_ast": true
+      },
+      {
+        "name": "normalize_gene_id",
+        "unchanged_ast": true
+      },
+      {
+        "name": "gene_symbol_from_depmap_column",
+        "unchanged_ast": true
+      },
+      {
+        "name": "identify_model_id_column",
+        "unchanged_ast": true
+      }
+    ]
+  },
+  {
+    "analysis": "global_response",
+    "file": "analysis/global_response.py",
+    "source": [
+      {
+        "notebook": "last try  (1)(1).ipynb",
+        "cell_index_zero_based": 14,
+        "notebook_sha256": "b04016fd986486abe6de818afee9d5d43d2b352c7440d469597dc684b482dcfd",
+        "source_cell_sha256": "dfc5a00c64551f4413b5670ed52fd87462623d7772acfd59394365c28d37ad23"
+      }
+    ],
+    "packaged_sha256": "a8782f1ca6c10768173d74d6e4544acbc263316f4b0931ed974ad8212adea34e",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_BEATAML_DIR",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha256_file",
+        "unchanged_ast": true
+      },
+      {
+        "name": "json_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_once_bytes",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_json",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_csv",
+        "unchanged_ast": true
+      },
+      {
+        "name": "truth",
+        "unchanged_ast": true
+      },
+      {
+        "name": "anon_endpoint_id",
+        "unchanged_ast": true
+      },
+      {
+        "name": "find_real_response_file",
+        "unchanged_ast": false
+      },
+      {
+        "name": "fit_ridge_train_only",
+        "unchanged_ast": true
+      }
+    ]
+  },
+  {
+    "analysis": "conditional_association",
+    "file": "analysis/conditional_association.py",
+    "source": [
+      {
+        "notebook": "claude(1).ipynb",
+        "cell_index_zero_based": 2,
+        "notebook_sha256": "7d0a1d2b8141ac2ea2dac1316fe70e5733ae09fb2c40ea2a51efbbb228f092a8",
+        "source_cell_sha256": "2264b52ddc61dc4304803e14ada57117958846326d11b530892339255e07a9e7"
+      }
+    ],
+    "packaged_sha256": "1b26157b48ac033fde81990f643fbf40589ef1f2c46928b9741f6d91a0096be2",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_once",
+        "unchanged_ast": true
+      },
+      {
+        "name": "save_json",
+        "unchanged_ast": true
+      },
+      {
+        "name": "save_csv",
+        "unchanged_ast": true
+      },
+      {
+        "name": "check_manifest",
+        "unchanged_ast": true
+      },
+      {
+        "name": "rank_scaled",
+        "unchanged_ast": true
+      },
+      {
+        "name": "residualized_effect",
+        "unchanged_ast": true
+      },
+      {
+        "name": "bh_fdr",
+        "unchanged_ast": true
+      }
+    ]
+  },
+  {
+    "analysis": "representation_ablation",
+    "file": "analysis/representation_ablation.py",
+    "source": [
+      {
+        "notebook": "claude(1).ipynb",
+        "cell_index_zero_based": 4,
+        "notebook_sha256": "7d0a1d2b8141ac2ea2dac1316fe70e5733ae09fb2c40ea2a51efbbb228f092a8",
+        "source_cell_sha256": "cc22885b27e821ace92c0126d45e26603ce97d4ef84821b4eab3b696d8fbcb09"
+      }
+    ],
+    "packaged_sha256": "5ac54daca35648701d60ffdfb990858c2a73a0aab1f10e6b4678ad5f64103b68",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha256",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_once",
+        "unchanged_ast": true
+      },
+      {
+        "name": "save_json",
+        "unchanged_ast": true
+      },
+      {
+        "name": "save_csv",
+        "unchanged_ast": true
+      },
+      {
+        "name": "verify_manifest",
+        "unchanged_ast": true
+      },
+      {
+        "name": "normalized_gene_matrix",
+        "unchanged_ast": true
+      },
+      {
+        "name": "patient_projection",
+        "unchanged_ast": true
+      },
+      {
+        "name": "create_mnn",
+        "unchanged_ast": true
+      },
+      {
+        "name": "leiden_graph",
+        "unchanged_ast": true
+      },
+      {
+        "name": "recurrence_and_stability",
+        "unchanged_ast": true
+      }
+    ]
+  },
+  {
+    "analysis": "message_ablation",
+    "file": "analysis/message_ablation.py",
+    "source": [
+      {
+        "notebook": "claude(1).ipynb",
+        "cell_index_zero_based": 5,
+        "notebook_sha256": "7d0a1d2b8141ac2ea2dac1316fe70e5733ae09fb2c40ea2a51efbbb228f092a8",
+        "source_cell_sha256": "f26efb39b8eb5d5cbb4a3bcbd0b1802725c847df4eb29febb87f731751cc66c0"
+      }
+    ],
+    "packaged_sha256": "1a8be6075ab3eea21577d276420ec861b9388a03b5f3836e158a0e3e2e57f2d4",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT",
+      "In-analysis pip install replaced by explicit dependency error"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_once",
+        "unchanged_ast": true
+      },
+      {
+        "name": "save_json",
+        "unchanged_ast": true
+      },
+      {
+        "name": "save_csv",
+        "unchanged_ast": true
+      },
+      {
+        "name": "check_manifest",
+        "unchanged_ast": true
+      },
+      {
+        "name": "normalize_basis",
+        "unchanged_ast": true
+      },
+      {
+        "name": "patient_projection",
+        "unchanged_ast": true
+      },
+      {
+        "name": "create_mnn",
+        "unchanged_ast": true
+      },
+      {
+        "name": "leiden_graph",
+        "unchanged_ast": true
+      },
+      {
+        "name": "state_metrics",
+        "unchanged_ast": true
+      },
+      {
+        "name": "rewire_relation_degree_preserving",
+        "unchanged_ast": true
+      },
+      {
+        "name": "build_message_graph",
+        "unchanged_ast": true
+      },
+      {
+        "name": "GeneRGAE",
+        "unchanged_ast": true
+      },
+      {
+        "name": "fixed_seed",
+        "unchanged_ast": true
+      },
+      {
+        "name": "tensor_checkpoint",
+        "unchanged_ast": true
+      },
+      {
+        "name": "run_fit",
+        "unchanged_ast": true
+      }
+    ]
+  },
+  {
+    "analysis": "cross_seed_consistency",
+    "file": "analysis/cross_seed_consistency.py",
+    "source": [
+      {
+        "notebook": "claude(1).ipynb",
+        "cell_index_zero_based": 7,
+        "notebook_sha256": "7d0a1d2b8141ac2ea2dac1316fe70e5733ae09fb2c40ea2a51efbbb228f092a8",
+        "source_cell_sha256": "00762b39501910072ecfd925376d3e378fc104a7d9433451d5d47f65e77c6d20"
+      }
+    ],
+    "packaged_sha256": "c90cde03d3f18f238650a9537d23c3c603728579a4041aa2f93b096b89c5b515",
+    "packaging_changes": [
+      "Colab mount import removed",
+      "Drive mount moved to launcher notebook",
+      "Filesystem location made configurable: AML_GRAPHRX_ROOT",
+      "In-analysis pip install replaced by explicit dependency error"
+    ],
+    "top_level_function_comparison": [
+      {
+        "name": "require",
+        "unchanged_ast": true
+      },
+      {
+        "name": "sha",
+        "unchanged_ast": true
+      },
+      {
+        "name": "write_once",
+        "unchanged_ast": true
+      },
+      {
+        "name": "save_json",
+        "unchanged_ast": true
+      },
+      {
+        "name": "save_csv",
+        "unchanged_ast": true
+      },
+      {
+        "name": "normalize_basis",
+        "unchanged_ast": true
+      },
+      {
+        "name": "patient_projection",
+        "unchanged_ast": true
+      },
+      {
+        "name": "create_mnn",
+        "unchanged_ast": true
+      },
+      {
+        "name": "leiden_graph",
+        "unchanged_ast": true
+      },
+      {
+        "name": "state_metrics",
+        "unchanged_ast": true
+      },
+      {
+        "name": "manifest_check",
+        "unchanged_ast": true
+      },
+      {
+        "name": "matched_recurrence",
+        "unchanged_ast": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "wave": "Waves1+2",
+    "n": 372,
+    "adjusted": -0.7001356923060877,
+    "bootstrap_draws": 2000,
+    "permutation_draws": 2000,
+    "max_bootstrap_absolute_difference": 1.9984014443252818e-15,
+    "max_permutation_absolute_difference": 3.469446951953614e-16
+  },
+  {
+    "wave": "Waves3+4",
+    "n": 188,
+    "adjusted": -0.6637723136946929,
+    "bootstrap_draws": 2000,
+    "permutation_draws": 2000,
+    "max_bootstrap_absolute_difference": 1.2212453270876722e-15,
+    "max_permutation_absolute_difference": 4.163336342344337e-16
+  }
+]

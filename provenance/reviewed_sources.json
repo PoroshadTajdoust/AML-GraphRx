@@ -1,0 +1,53 @@
+[
+  {
+    "filename": "AML_GraphRx.docx",
+    "sha256": "f3f804b5168862c8e8a24c27ae71288e78499ffe79d0ec3968a7bc3a383c57d6",
+    "bytes": 4474907
+  },
+  {
+    "filename": "AML_GraphRx.docx.openai-download-de3e22c70e254b2fa5c5fcc59e2afa0d",
+    "sha256": "572724c76d17250fabaff43d6831786f74470fcb6973d73a9055bc128f811bfe",
+    "bytes": 327680
+  },
+  {
+    "filename": "AML_GraphRx_supplementary.docx",
+    "sha256": "bc722479928c5f0e199ddbbef4d932a6cfe3502ccc429e353bd5df8a2620a1ec",
+    "bytes": 2024858
+  },
+  {
+    "filename": "AML_GraphRx_supplementary.docx.openai-download-a5ac828d7d104ca8bc4d6652c217653c",
+    "sha256": "d78956ad1cbd627b2b0113ac6cf4dd4a1a77a003aa67eb9e062ff3a9a35689b9",
+    "bytes": 720896
+  },
+  {
+    "filename": "Untitled0 (1).ipynb",
+    "sha256": "ecdf207ef7581bc8942c1bde1106f58358b6d42295348e0acf623c613f1523f5",
+    "bytes": 1802777
+  },
+  {
+    "filename": "Untitled1 (2).ipynb",
+    "sha256": "f7707acc15ba75be304f73daee9d49d2f3b77c90d4ddc8d9149278dc3362587c",
+    "bytes": 2249149
+  },
+  {
+    "filename": "Untitled2(1).ipynb",
+    "sha256": "b8996ba106501104b9b0c2ac7e6c563dd26dad1ff97c0919785f91da0decc5ba",
+    "bytes": 1132839
+  },
+  {
+    "filename": "claude(1).ipynb",
+    "sha256": "7d0a1d2b8141ac2ea2dac1316fe70e5733ae09fb2c40ea2a51efbbb228f092a8",
+    "bytes": 238247
+  },
+  {
+    "filename": "last try  (1)(1).ipynb",
+    "sha256": "b04016fd986486abe6de818afee9d5d43d2b352c7440d469597dc684b482dcfd",
+    "bytes": 646064
+  },
+  {
+    "filename": "historical_Untitled2.ipynb",
+    "sha256": "9da0ab5bef36d7884ebdf8c4465859b03969388a1abb551fd7c6c783d9cd0d02",
+    "bytes": 1225876,
+    "role": "successful clinical merge and odds-ratio amendment absent from the newer truncated notebook"
+  }
+]

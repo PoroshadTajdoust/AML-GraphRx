@@ -1,0 +1,22 @@
+[
+  {
+    "file": "740_R9Q_preanalysis_protocol.json",
+    "sha256": "4f44980ca9dc63d628000668f545a8a7a198138686ffc624922efff0a57516d8",
+    "matches_included_source": true
+  },
+  {
+    "file": "750_R10A_preanalysis_representation_ablation_protocol.json",
+    "sha256": "5c37ed1ccffeea8b3f2b12b1ed7e53afd9101ca77ed9c1ea504c75e151d752dd",
+    "matches_included_source": true
+  },
+  {
+    "file": "760_R10B_protocol.json",
+    "sha256": "d09ac566de44bcbcdd899d55f4e0af32b3830fb1da7cc240452df04cc208982a",
+    "matches_included_source": true
+  },
+  {
+    "file": "768_R10C_cross_seed_protocol.json",
+    "sha256": "30faca248a6006bbeeccb18db738c28d0d2adfcbcbda725fb50a5c675acb9d6a",
+    "matches_included_source": true
+  }
+]

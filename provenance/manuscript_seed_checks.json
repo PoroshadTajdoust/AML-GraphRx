@@ -1,0 +1,115 @@
+{
+  "checks": [
+    {
+      "document": "main",
+      "seed": 20261004,
+      "literal_present": true
+    },
+    {
+      "document": "main",
+      "seed": 20261011,
+      "literal_present": true
+    },
+    {
+      "document": "main",
+      "seed": 20261015,
+      "literal_present": true
+    },
+    {
+      "document": "main",
+      "seed": 20261021,
+      "literal_present": true
+    },
+    {
+      "document": "main",
+      "seed": 20261025,
+      "literal_present": true
+    },
+    {
+      "document": "main",
+      "seed": 20261031,
+      "literal_present": true
+    },
+    {
+      "document": "main",
+      "seed": 20261101,
+      "literal_present": true
+    },
+    {
+      "document": "main",
+      "seed": 20261102,
+      "literal_present": true
+    },
+    {
+      "document": "supplement",
+      "seed": 20261010,
+      "literal_present": true
+    },
+    {
+      "document": "supplement",
+      "seed": 20261011,
+      "literal_present": true
+    },
+    {
+      "document": "supplement",
+      "seed": 20261012,
+      "literal_present": true
+    },
+    {
+      "document": "supplement",
+      "seed": 20261013,
+      "literal_present": true
+    },
+    {
+      "document": "supplement",
+      "seed": 20261014,
+      "literal_present": true
+    },
+    {
+      "document": "supplement",
+      "seed": 20261015,
+      "literal_present": true
+    },
+    {
+      "document": "supplement",
+      "seed": 20261021,
+      "literal_present": true
+    },
+    {
+      "document": "supplement",
+      "seed": 20261022,
+      "literal_present": true
+    },
+    {
+      "document": "supplement",
+      "seed": 20261023,
+      "literal_present": true
+    },
+    {
+      "document": "supplement",
+      "seed": 20261024,
+      "literal_present": true
+    },
+    {
+      "document": "supplement",
+      "seed": 20261025,
+      "literal_present": true
+    },
+    {
+      "document": "supplement",
+      "seed": 20261031,
+      "literal_present": true
+    },
+    {
+      "document": "supplement",
+      "seed": 20261101,
+      "literal_present": true
+    },
+    {
+      "document": "supplement",
+      "seed": 20261102,
+      "literal_present": true
+    }
+  ],
+  "supplement_S4A_fixed_basis_note": "Original and PCA cells say Locked / fixed; both correspond to 20261004 in the code. No numerical disagreement found."
+}
