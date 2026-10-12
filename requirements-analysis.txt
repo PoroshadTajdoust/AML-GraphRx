@@ -1,0 +1,14 @@
+# Original analysis requirements, not a complete historical environment lock.
+# Install the appropriate PyTorch CUDA build separately (see docs/ENVIRONMENT.md).
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+Pillow
+openpyxl
+statsmodels
+torch-geometric==2.8.0
+gseapy==1.3.0
+igraph
+leidenalg
