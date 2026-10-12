@@ -1,0 +1,8 @@
+metric,value
+celltype_features_n,6.0
+selected_ridge_alpha_training_only,5.623413251903491
+Waves1+2_training_R2_descriptive,0.371422925730172
+Waves3+4_test_R2,0.27553247905639
+Waves3+4_test_MAE,0.040406400221424964
+Waves3+4_test_Spearman,0.5497817437742343
+Waves3+4_test_Spearman_p,3.0530819613347085e-16

@@ -1,0 +1,25 @@
+metric,value
+protocol_id,AML_GRAPHRX_R8H2_VANGALEN_HIERARCHY_CORRECTION_V1
+selected_workbook_layout,SAMPLE_ROWS_WIDE
+selected_workbook_sheet,Malignant Cell Type Scores
+selected_identifier_namespace,external_sample_id
+workbook_identifier_overlap_n,560
+complete_six_score_analysis_n,560
+Waves1+2_complete_n,372
+Waves3+4_complete_n,188
+vanGalen_malignant_celltypes_n,6
+same_direction_celltype_associations_n,5
+cross_wave_FDR_replicated_celltypes_n,3
+hierarchy_contrast_Waves1+2_rho,0.09085397166769273
+hierarchy_contrast_Waves1+2_FDR,0.16021882205077273
+hierarchy_contrast_Waves3+4_rho,0.1808519668344449
+hierarchy_contrast_Waves3+4_FDR,0.026005477468553157
+hierarchy_contrast_cross_wave_replicated,False
+celltype_only_Waves3+4_test_R2,0.27553247905639
+celltype_only_Waves3+4_test_Spearman,0.5497817437742343
+celltype_only_Waves3+4_test_Spearman_p,3.0530819613347085e-16
+R8H2_VANGALEN_HIERARCHY_CONTEXT_SUPPORTED,True
+claim_boundary,"external biological contextualization with six transcriptome-derived van Galen malignant-cell scores; not orthogonal validation, causal differentiation, or discrete subtype proof"
+R8G_context,common mutations did not show cross-wave FDR replication and mutation-only held-out reconstruction was poor; no claim of genetic independence
+next_step_if_supported,freeze R8H2 and stop transcriptomic score development; integrate R7B2/R7C/R8G/R8H2 into manuscript before any separately predeclared pharmacogenomic analysis
+next_step_if_not_supported,retain null hierarchy contextualization and stop adding transcriptomic reinterpretation layers

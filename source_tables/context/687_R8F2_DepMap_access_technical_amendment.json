@@ -1,0 +1,26 @@
+{
+  "DepMap_release": "26Q3",
+  "allowed_expression_filenames": [
+    "OmicsExpressionTPMLogp1HumanProteinCodingGenes.csv",
+    "OmicsExpressionProteinCodingGenesTPMLogp1.csv"
+  ],
+  "data_acquisition_change_only": true,
+  "dependency_model_rule": "CRISPRGeneDependency.csv and Model.csv must exactly match the previously locked R5DM 26Q3 SHA256 values.",
+  "expression_rule": "Use official DepMap Public 26Q3 protein-coding expression file from normal Downloads interface.",
+  "forbidden": [
+    "change frozen R7A2 pathway definition",
+    "change 533-gene inferential family",
+    "select AML models by functional outcome",
+    "change FDR threshold after observing results",
+    "substitute another DepMap release",
+    "interpret CRISPR dependency as drug response"
+  ],
+  "local_directory": "/content/drive/MyDrive/AML_GraphRx/external/depmap_26Q3",
+  "parent_R8F_candidate_panel_file": "680_R8F_candidate_panel_audit.csv",
+  "parent_R8F_integrity_file": "675_R8F_parent_integrity_audit.csv",
+  "parent_R8F_protocol_file": "674_R8F_predeclared_functional_dependency_protocol.json",
+  "parent_R8F_protocol_sha256": "806d8fc93f28c58912ca900bedd4908e7971223185189c58d2af5c92b18f3a54",
+  "protocol_id": "AML_GRAPHRX_R8F2_DEPMAP_LOCAL_INGESTION_V1",
+  "reason": "R8F-v1 stopped at HTTP 403 from the DepMap automated download catalogue before any functional association was calculated.",
+  "scientific_protocol_change": false
+}

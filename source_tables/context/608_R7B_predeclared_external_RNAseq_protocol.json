@@ -1,0 +1,51 @@
+{
+  "bootstrap": {
+    "n": 1000,
+    "seed": 20261009,
+    "support_if_fraction_rho_negative_ge": 0.95
+  },
+  "created_utc": "2026-10-09T19:20:42.880043+00:00",
+  "cross_wave_transport": {
+    "absolute_median_shift_in_pooled_IQR_le": 0.5,
+    "external_fraction_within_R7A2_discovery_central95_ge": 0.75
+  },
+  "external_source": {
+    "files": [
+      "beataml_waves1to4_norm_exp_dbgap.txt",
+      "beataml_wv1to4_clinical.xlsx",
+      "beataml_waves1to4_sample_mapping.xlsx",
+      "LICENSE.txt"
+    ],
+    "pinned_tag": "v3.0",
+    "repository": "https://github.com/biodev/beataml2.0_data.git",
+    "role": "external RNA-seq transportability test of frozen R7A2 pathway axis"
+  },
+  "forbidden": [
+    "alter R7A2 pathway membership",
+    "remove a BeatAML wave because of unfavorable performance",
+    "change mapping thresholds after seeing results",
+    "fit scaling parameters on BeatAML",
+    "redefine State03 or State06",
+    "claim prognosis, treatment benefit, or validated AML subtype from R7B"
+  ],
+  "mapping_gates": {
+    "every_frozen_pathway_gene_mapping_fraction_ge": 0.8,
+    "mapped_AMLGraphRx_gene_universe_fraction_ge": 0.9
+  },
+  "parent_axis_file": "605_R7A2_frozen_axis_definition.json",
+  "parent_axis_sha256": "7bcf8f7a268bcb10f2748710bceeeadf25cf4b2b48b52eabb03370eb43c57464",
+  "preprocessing": {
+    "expression_input": "BeatAML2 normalized expression table",
+    "gene_ranking": "within-sample percentile ranks computed across the mapped AML-GraphRx 9554-gene universe; no cohort centering or external parameter fitting",
+    "pathway_score": "exact frozen 605 component/pathway formula",
+    "sample_selection": "official manuscript-style clinical flags where available: used_manuscript_analyses == yes AND manuscript_rnaseq == yes"
+  },
+  "primary_external_biology_test": {
+    "interpretation": "negative correlation supports preservation of the antagonistic pathway structure; it is not a subtype-classification endpoint",
+    "metric": "Spearman correlation between aggregate S03-high and S06-high component means",
+    "overall_support_if_rho_le": -0.3,
+    "two_sided_p_lt": 0.05,
+    "wave_specific_support_if_rho_le": -0.2
+  },
+  "protocol_id": "AML_GRAPHRX_R7B_BEATAML_EXTERNAL_RNASEQ_VALIDATION_V1"
+}

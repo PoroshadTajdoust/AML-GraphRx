@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-09T19:35:59.268784+00:00",
+  "external_rules_unchanged": {
+    "bootstrap_negative_fraction_ge": 0.95,
+    "each_wave_rho_le": -0.2,
+    "overall_S03high_vs_S06high_rho_le": -0.3,
+    "wave_median_shift_abs_pooled_IQR_le": 0.5
+  },
+  "forbidden": [
+    "change frozen 605 membership",
+    "lower pathway mapping gate after external scores are seen",
+    "remove unfavorable BeatAML waves",
+    "retune R7A2 on BeatAML"
+  ],
+  "frozen_axis_sha256": "7bcf8f7a268bcb10f2748710bceeeadf25cf4b2b48b52eabb03370eb43c57464",
+  "mandatory_masked_discovery_gates": {
+    "masked_State06_vs_State03_AUROC_ge": 0.7,
+    "masked_vs_full_score_spearman_ge": 0.9,
+    "median_abs_difference_full_IQR_units_le": 0.25
+  },
+  "new_primary_mapping_gate": {
+    "every_frozen_pathway_gene_mapping_fraction_ge": 0.8
+  },
+  "parent_R7B_protocol_sha256": "22c0f50c209880797274985a2ac10b5a24d4fc124559c3f4ea2d3e0a0849e175",
+  "parent_R7B_source_audit_sha256": "09e6526bc1be5d72e4e174b512c56e25b254431a0444d038490e518fb796ec65",
+  "protocol_id": "AML_GRAPHRX_R7B2_BEATAML_MAPPING_AMENDMENT_V1",
+  "reason": "Parent R7B stopped before external score computation because whole-universe coverage was 82.5% < arbitrary 90%."
+}

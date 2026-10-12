@@ -1,0 +1,2 @@
+wave_1,wave_2,wave_1_n,wave_2_n,wave_1_median,wave_2_median,pooled_IQR,wave2_minus_wave1_median_shift_pooled_IQR_units,absolute_shift_gate,KS_statistic,KS_p,MW_p
+Waves1+2,Waves3+4,372,188,-0.13550974860482518,-0.123396663585892,0.08111334098211967,0.14933529888262567,True,0.13183482040722946,0.023140898689321693,0.017285734092784187

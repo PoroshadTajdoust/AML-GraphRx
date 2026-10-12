@@ -1,0 +1,52 @@
+{
+  "AML_definition": "Model.csv OncotreePrimaryDisease == Acute Myeloid Leukemia, intersected with CRISPRGeneDependency",
+  "DepMap_release": "26Q3",
+  "candidate_family": {
+    "FDR_threshold": 0.05,
+    "full_primary_family": "all 533 R5DM PRIMARY_ELIGIBLE bridge candidates",
+    "minimum_paired_AML_models_per_gene": 20,
+    "multiple_testing": "one BH correction across all evaluable members of the 533-candidate family",
+    "test": "two-sided Spearman correlation: frozen pathway axis vs CRISPR dependency probability"
+  },
+  "expression_scoring": {
+    "frozen_axis": "exact 605 R7A2 component-balanced formula",
+    "higher_score": "S06-like",
+    "lower_score": "S03-like",
+    "source": "26Q3 protein-coding log2(TPM+1) expression",
+    "transformation": "within-model percentile ranks over mapped AML-GraphRx gene universe"
+  },
+  "focused_panel": {
+    "bootstrap_n": 1000,
+    "bootstrap_seed": 20261010,
+    "definition": "33 previously locked DEPMAP_HIGH_CONFIDENCE_SUPPORT genes from R5DM",
+    "inference": "reuse full-533-family BH q values; do NOT recompute a 33-gene FDR",
+    "role": "focused descriptive subset of the full family",
+    "sign_stability_descriptive_threshold": 0.95
+  },
+  "forbidden": [
+    "reselect genes based on R8F results",
+    "change frozen pathway membership or weights",
+    "drop AML models because of unfavorable dependency association",
+    "use a smaller focused-panel FDR to create significance",
+    "interpret CRISPR dependency as drug sensitivity",
+    "make therapeutic recommendations"
+  ],
+  "functional_endpoint": "CRISPRGeneDependency probability",
+  "mapping_safeguards": {
+    "every_frozen_pathway_gene_coverage_ge": 0.8,
+    "masked_discovery_State06_vs_State03_AUROC_ge": 0.7,
+    "masked_discovery_median_abs_difference_full_IQR_le": 0.25,
+    "masked_discovery_score_spearman_ge": 0.9
+  },
+  "not_endpoints": [
+    "drug response",
+    "clinical treatment response",
+    "Chronos GeneEffect"
+  ],
+  "parent_axis_file": "605_R7A2_frozen_axis_definition.json",
+  "parent_axis_sha256": "7bcf8f7a268bcb10f2748710bceeeadf25cf4b2b48b52eabb03370eb43c57464",
+  "parent_candidate_file": "539_R5DM_candidate_gene_dependency_statistics.csv",
+  "parent_candidate_sha256": "209cf7fc0702592dd3cc63d3460e3945507d6f4378a68828b93b9e42789fc661",
+  "protocol_date_utc": "2026-10-09",
+  "protocol_id": "AML_GRAPHRX_R8F_DEPMAP_FUNCTIONAL_DEPENDENCY_V1"
+}

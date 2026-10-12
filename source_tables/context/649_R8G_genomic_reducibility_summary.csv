@@ -1,0 +1,8 @@
+metric,value
+mutation_features_n,23.0
+selected_ridge_alpha_training_only,177.82794100389228
+Waves1+2_training_R2_descriptive,0.1298644466762755
+Waves3+4_test_R2,-0.060026308747413326
+Waves3+4_test_MAE,0.04790510217306952
+Waves3+4_test_Spearman,0.1023672968408606
+Waves3+4_test_Spearman_p,0.165577834612047

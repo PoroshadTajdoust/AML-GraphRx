@@ -1,0 +1,33 @@
+metric,value
+protocol_id,AML_GRAPHRX_R7C_RANK_COMPOSITION_NULL_V1
+BeatAML_samples_n,560
+mapped_project_genes_n,7885
+primary_matched_permutations_n,1000
+secondary_global_permutations_n,1000
+observed_pooled_S03high_vs_S06high_rho,-0.6853854763567486
+primary_matched_null_mean_rho,0.04317252451872726
+primary_matched_null_q005,-0.4254031512263386
+primary_matched_null_q025,-0.3153726420638185
+primary_matched_null_q975,0.413838446095628
+primary_matched_empirical_p_lower,0.000999000999000999
+secondary_global_null_mean_rho,-0.02202255931935343
+secondary_global_empirical_p_lower,0.000999000999000999
+S06_component_1_id,R7C_044
+S06_component_1_rho_vs_S03_aggregate,-0.6838385280929742
+S06_component_1_matched_FDR,0.000999000999000999
+S06_component_2_id,R7C_114
+S06_component_2_rho_vs_S03_aggregate,-0.6857908751466476
+S06_component_2_matched_FDR,0.000999000999000999
+S06_component_1_vs_component_2_rho_descriptive,0.9933797216275316
+balanced_2of112_S03_pairs_n,6216
+balanced_S03_pair_rho_median,-0.5143805920481708
+balanced_S03_pair_rho_q025,-0.7695881922455111
+balanced_S03_pair_rho_q975,0.09641388877879987
+balanced_S03_pair_fraction_negative,0.9451415701415702
+gate_primary_pooled_matched_null,True
+gate_both_BeatAML_waves_matched_null,True
+gate_both_S06_components_matched_null,True
+R7C_RANK_COMPOSITION_ROBUSTNESS_SUPPORTED,True
+claim_boundary,"supports gene-identity-specific external antagonistic pathway structure beyond rank-composition null; does not establish discrete subtype, causality, prognosis, or treatment response"
+next_step_if_supported,freeze R7C and proceed to a separately predeclared pharmacogenomic analysis without altering R7A2/R7B2/R7C
+next_step_if_not_supported,retain negative robustness result and do not pursue pathway-axis pharmacogenomic claims as if externally established

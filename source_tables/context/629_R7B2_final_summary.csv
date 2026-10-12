@@ -1,0 +1,24 @@
+metric,value
+protocol_id,AML_GRAPHRX_R7B2_BEATAML_MAPPING_AMENDMENT_V1
+BeatAML_RNA_samples_n,560
+whole_universe_mapping_fraction_descriptive,0.8253087711953109
+minimum_frozen_pathway_mapping_fraction,0.875
+masked_vs_full_discovery_score_spearman,0.9942348494762954
+masked_vs_full_median_abs_diff_full_IQR_units,0.16379919590766662
+masked_discovery_State06_vs_State03_AUROC,0.7442324561403509
+overall_external_S03high_vs_S06high_spearman,-0.6853854763567486
+overall_external_opposition_p,6.621988759688881e-79
+bootstrap_rho_q025,-0.7299039798919325
+bootstrap_rho_q975,-0.6389351136928816
+bootstrap_negative_rho_fraction,1.0
+wave_median_shift_pooled_IQR_units,0.14933529888262567
+gate_masked_discovery_preservation,True
+gate_pathway_mapping,True
+gate_overall_external_opposition,True
+gate_both_external_waves_opposition,True
+gate_cross_wave_transport,True
+gate_bootstrap_direction,True
+R7B2_EXTERNAL_PATHWAY_AXIS_SUPPORTED,True
+claim_boundary,"independent external RNA-seq support for a frozen continuous pathway program only; not subtype, prognosis, or treatment validation"
+next_step_if_supported,lock R7B2 and integrate into manuscript; any pharmacologic analysis must be separate and predeclared
+next_step_if_not_supported,retain result and stop pathway-axis refinement on BeatAML

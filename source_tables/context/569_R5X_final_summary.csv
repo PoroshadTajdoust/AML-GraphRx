@@ -1,0 +1,17 @@
+metric,value
+all8_corrected_mnn_node_coverage,0.7351413733410271
+all8_corrected_recurrent_states_n,3
+all8_training_LOO_macro_F1,0.8336753452182464
+automatic_success_claim,False
+corrected_vs_original_ARI_descriptive,0.34800249882055395
+corrected_vs_original_NMI_descriptive,0.4544240584351785
+median_heldout_confident_coverage,0.32786885245901637
+median_heldout_state_recovery_fraction,0.5
+median_heldout_states_recovered_n,1.0
+median_training_LOO_ARI,0.7766478826597711
+median_training_LOO_NMI,0.7260973332436358
+median_training_LOO_macro_F1,0.8722713542235324
+median_training_recurrent_states_n,2.0
+next_step,review LOCO results; only then freeze candidate and test one truly new cohort
+outer_folds_complete,7
+outer_folds_total,8

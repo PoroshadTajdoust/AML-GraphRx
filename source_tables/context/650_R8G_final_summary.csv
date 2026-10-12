@@ -1,0 +1,16 @@
+metric,value
+protocol_id,AML_GRAPHRX_R8G_BEATAML_GENOMIC_ANCHORING_V1
+RNA_DNA_overlap_n,539
+Waves1+2_RNA_DNA_n,354
+Waves3+4_RNA_DNA_n,185
+prequalified_common_mutation_features_n,23
+same_direction_mutation_associations_n,12
+Waves1+2_FDR_significant_mutations_n,4
+Waves3+4_FDR_significant_mutations_n,0
+cross_wave_FDR_replicated_mutations_n,0
+mutation_only_Waves3+4_test_R2,-0.060026308747413326
+mutation_only_Waves3+4_test_Spearman,0.1023672968408606
+mutation_only_Waves3+4_test_Spearman_p,0.165577834612047
+R8G_GENOMIC_ANCHORING_COMPLETED,True
+claim_boundary,genomic context for the already-frozen external pathway axis; does not redefine the axis and does not establish causality or genetic independence
+next_step,"integrate replicated genomic associations, if any, as external context; preserve null findings and avoid retuning the pathway program"

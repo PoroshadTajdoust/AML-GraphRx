@@ -1,0 +1,31 @@
+metric,value
+protocol_id,AML_GRAPHRX_R6_CROSSFITTED_PROGRAM_AXIS_V1
+discovery_samples_n,1733
+outer_folds_total,8
+evaluable_LOCO_folds_n,7
+OOF_scored_patients_n,1171
+OOF_scored_fraction,0.6757068667051356
+reference_fold_for_sign_alignment,LOCO_01_GSE15434
+median_pairwise_fold_weight_spearman,0.08434977497639104
+median_positive_gene_Jaccard,0.09881422924901186
+median_negative_gene_Jaccard,0.060859188544152745
+median_heldout_fraction_within_training_central95,0.9767441860465116
+median_absolute_heldout_shift_training_IQR_units,0.10706330629300763
+OOF_vs_all8_axis_score_spearman,-0.28548183594714815
+OOF_score_cohort_Kruskal_Wallis_H,583.761156741668
+OOF_score_cohort_Kruskal_Wallis_p,7.41705762343953e-123
+OOF_score_cohort_epsilon_squared,0.49635838208047073
+all8_axis_pole_A_state,AML_STATE_01
+all8_axis_pole_B_state,AML_STATE_02
+all8_axis_robust_genes_n,5805
+all8_axis_positive_genes_n_aligned,2634
+all8_axis_negative_genes_n_aligned,3171
+all8_weight_spearman_to_reference_before_sign_alignment,-0.17003790867413265
+gate_evaluable_folds,True
+gate_weight_stability,False
+gate_OOF_all8_concordance,False
+gate_heldout_calibration,True
+R6_PROGRAM_AXIS_TRANSPORT_SUPPORT,False
+claim_boundary,"continuous program-axis transportability only; not proof of discrete AML subtype validation, drug response, prognosis, or causality"
+next_step_if_supported,"lock all8 axis, then test on genuinely external RNA-seq and only then map to DepMap expression/dependency"
+next_step_if_not_supported,stop axis refinement; retain negative result and do not tune on the same eight cohorts
