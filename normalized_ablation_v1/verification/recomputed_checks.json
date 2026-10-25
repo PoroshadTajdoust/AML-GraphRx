@@ -1,0 +1,552 @@
+{
+  "scope": "Verification of archived outputs and assignments only. No GNN training, normalization, projection, or clustering rerun.",
+  "checks": [
+    {
+      "check": "Manifest path is inside results: cache_normalized_20261031_DEGREE_PRESERVING_REWIRE.npz",
+      "passed": true
+    },
+    {
+      "check": "SHA256: cache_normalized_20261031_DEGREE_PRESERVING_REWIRE.npz",
+      "passed": true
+    },
+    {
+      "check": "Bytes: cache_normalized_20261031_DEGREE_PRESERVING_REWIRE.npz",
+      "passed": true
+    },
+    {
+      "check": "Manifest path is inside results: cache_normalized_20261031_NO_MESSAGE_PASSING.npz",
+      "passed": true
+    },
+    {
+      "check": "SHA256: cache_normalized_20261031_NO_MESSAGE_PASSING.npz",
+      "passed": true
+    },
+    {
+      "check": "Bytes: cache_normalized_20261031_NO_MESSAGE_PASSING.npz",
+      "passed": true
+    },
+    {
+      "check": "Manifest path is inside results: cache_normalized_20261031_REAL_GRAPH.npz",
+      "passed": true
+    },
+    {
+      "check": "SHA256: cache_normalized_20261031_REAL_GRAPH.npz",
+      "passed": true
+    },
+    {
+      "check": "Bytes: cache_normalized_20261031_REAL_GRAPH.npz",
+      "passed": true
+    },
+    {
+      "check": "Manifest path is inside results: cache_normalized_20261101_DEGREE_PRESERVING_REWIRE.npz",
+      "passed": true
+    },
+    {
+      "check": "SHA256: cache_normalized_20261101_DEGREE_PRESERVING_REWIRE.npz",
+      "passed": true
+    },
+    {
+      "check": "Bytes: cache_normalized_20261101_DEGREE_PRESERVING_REWIRE.npz",
+      "passed": true
+    },
+    {
+      "check": "Manifest path is inside results: cache_normalized_20261101_NO_MESSAGE_PASSING.npz",
+      "passed": true
+    },
+    {
+      "check": "SHA256: cache_normalized_20261101_NO_MESSAGE_PASSING.npz",
+      "passed": true
+    },
+    {
+      "check": "Bytes: cache_normalized_20261101_NO_MESSAGE_PASSING.npz",
+      "passed": true
+    },
+    {
+      "check": "Manifest path is inside results: cache_normalized_20261101_REAL_GRAPH.npz",
+      "passed": true
+    },
+    {
+      "check": "SHA256: cache_normalized_20261101_REAL_GRAPH.npz",
+      "passed": true
+    },
+    {
+      "check": "Bytes: cache_normalized_20261101_REAL_GRAPH.npz",
+      "passed": true
+    },
+    {
+      "check": "Manifest path is inside results: cache_normalized_20261102_DEGREE_PRESERVING_REWIRE.npz",
+      "passed": true
+    },
+    {
+      "check": "SHA256: cache_normalized_20261102_DEGREE_PRESERVING_REWIRE.npz",
+      "passed": true
+    },
+    {
+      "check": "Bytes: cache_normalized_20261102_DEGREE_PRESERVING_REWIRE.npz",
+      "passed": true
+    },
+    {
+      "check": "Manifest path is inside results: cache_normalized_20261102_NO_MESSAGE_PASSING.npz",
+      "passed": true
+    },
+    {
+      "check": "SHA256: cache_normalized_20261102_NO_MESSAGE_PASSING.npz",
+      "passed": true
+    },
+    {
+      "check": "Bytes: cache_normalized_20261102_NO_MESSAGE_PASSING.npz",
+      "passed": true
+    },
+    {
+      "check": "Manifest path is inside results: cache_normalized_20261102_REAL_GRAPH.npz",
+      "passed": true
+    },
+    {
+      "check": "SHA256: cache_normalized_20261102_REAL_GRAPH.npz",
+      "passed": true
+    },
+    {
+      "check": "Bytes: cache_normalized_20261102_REAL_GRAPH.npz",
+      "passed": true
+    },
+    {
+      "check": "Manifest path is inside results: normalized_arm_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256: normalized_arm_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "Bytes: normalized_arm_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "Manifest path is inside results: normalized_arm_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256: normalized_arm_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "Bytes: normalized_arm_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "Manifest path is inside results: normalized_cross_seed_pairwise.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256: normalized_cross_seed_pairwise.csv",
+      "passed": true
+    },
+    {
+      "check": "Bytes: normalized_cross_seed_pairwise.csv",
+      "passed": true
+    },
+    {
+      "check": "Manifest path is inside results: normalized_hungarian_state_matches.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256: normalized_hungarian_state_matches.csv",
+      "passed": true
+    },
+    {
+      "check": "Bytes: normalized_hungarian_state_matches.csv",
+      "passed": true
+    },
+    {
+      "check": "Manifest path is inside results: normalized_paired_coverage_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256: normalized_paired_coverage_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "Bytes: normalized_paired_coverage_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "Manifest path is inside results: sensitivity_protocol_and_inputs.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256: sensitivity_protocol_and_inputs.json",
+      "passed": true
+    },
+    {
+      "check": "Bytes: sensitivity_protocol_and_inputs.json",
+      "passed": true
+    },
+    {
+      "check": "Exact recorded three seeds",
+      "passed": true
+    },
+    {
+      "check": "All nine arm and seed combinations retained",
+      "passed": true
+    },
+    {
+      "check": "All nine pair comparisons retained",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261031: 1733 assignments",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261031: coverage",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261031: community count",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261031: original embedding identity",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261101: 1733 assignments",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261101: coverage",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261101: community count",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261101: original embedding identity",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261102: 1733 assignments",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261102: coverage",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261102: community count",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261102: original embedding identity",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261031: 1733 assignments",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261031: coverage",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261031: community count",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261031: original embedding identity",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261101: 1733 assignments",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261101: coverage",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261101: community count",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261101: original embedding identity",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261102: 1733 assignments",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261102: coverage",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261102: community count",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261102: original embedding identity",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261031: 1733 assignments",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261031: coverage",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261031: community count",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261031: original embedding identity",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261101: 1733 assignments",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261101: coverage",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261101: community count",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261101: original embedding identity",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261102: 1733 assignments",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261102: coverage",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261102: community count",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261102: original embedding identity",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261031/20261101: matched Jaccard",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261031/20261101: joint coverage",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261031/20261101: raw partition ARI",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261031/20261102: matched Jaccard",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261031/20261102: joint coverage",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261031/20261102: raw partition ARI",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261101/20261102: matched Jaccard",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261101/20261102: joint coverage",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE/20261101/20261102: raw partition ARI",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261031/20261101: matched Jaccard",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261031/20261101: joint coverage",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261031/20261101: raw partition ARI",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261031/20261102: matched Jaccard",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261031/20261102: joint coverage",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261031/20261102: raw partition ARI",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261101/20261102: matched Jaccard",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261101/20261102: joint coverage",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING/20261101/20261102: raw partition ARI",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261031/20261101: matched Jaccard",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261031/20261101: joint coverage",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261031/20261101: raw partition ARI",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261031/20261102: matched Jaccard",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261031/20261102: joint coverage",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261031/20261102: raw partition ARI",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261101/20261102: matched Jaccard",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261101/20261102: joint coverage",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH/20261101/20261102: raw partition ARI",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE: arm mean",
+      "passed": true
+    },
+    {
+      "check": "DEGREE_PRESERVING_REWIRE: evaluable-pair median",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING: arm mean",
+      "passed": true
+    },
+    {
+      "check": "NO_MESSAGE_PASSING: evaluable-pair median",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH: arm mean",
+      "passed": true
+    },
+    {
+      "check": "REAL_GRAPH: evaluable-pair median",
+      "passed": true
+    }
+  ],
+  "recomputed_pairs": [
+    {
+      "arm": "DEGREE_PRESERVING_REWIRE",
+      "seed_a": 20261031,
+      "seed_b": 20261101,
+      "matched_jaccard": 0.26736405852525824,
+      "joint_coverage": 0.363531448355453,
+      "raw_partition_ARI": 0.2839797269804188
+    },
+    {
+      "arm": "DEGREE_PRESERVING_REWIRE",
+      "seed_a": 20261031,
+      "seed_b": 20261102,
+      "matched_jaccard": 0.24425124151951444,
+      "joint_coverage": 0.15810732833237162,
+      "raw_partition_ARI": 0.33295762738632995
+    },
+    {
+      "arm": "DEGREE_PRESERVING_REWIRE",
+      "seed_a": 20261101,
+      "seed_b": 20261102,
+      "matched_jaccard": 0.37765262560119683,
+      "joint_coverage": 0.4772071552221581,
+      "raw_partition_ARI": 0.280769139671344
+    },
+    {
+      "arm": "NO_MESSAGE_PASSING",
+      "seed_a": 20261031,
+      "seed_b": 20261101,
+      "matched_jaccard": 0.0,
+      "joint_coverage": 0.0,
+      "raw_partition_ARI": 0.04847498850771257
+    },
+    {
+      "arm": "NO_MESSAGE_PASSING",
+      "seed_a": 20261031,
+      "seed_b": 20261102,
+      "matched_jaccard": null,
+      "joint_coverage": 0.0,
+      "raw_partition_ARI": 0.03614873722833985
+    },
+    {
+      "arm": "NO_MESSAGE_PASSING",
+      "seed_a": 20261101,
+      "seed_b": 20261102,
+      "matched_jaccard": 0.0,
+      "joint_coverage": 0.0,
+      "raw_partition_ARI": 0.02517227422153693
+    },
+    {
+      "arm": "REAL_GRAPH",
+      "seed_a": 20261031,
+      "seed_b": 20261101,
+      "matched_jaccard": 0.32940032574342165,
+      "joint_coverage": 0.44316214656664743,
+      "raw_partition_ARI": 0.2823376602429493
+    },
+    {
+      "arm": "REAL_GRAPH",
+      "seed_a": 20261031,
+      "seed_b": 20261102,
+      "matched_jaccard": 0.4163206985673351,
+      "joint_coverage": 0.5447201384881708,
+      "raw_partition_ARI": 0.3246988406541327
+    },
+    {
+      "arm": "REAL_GRAPH",
+      "seed_a": 20261101,
+      "seed_b": 20261102,
+      "matched_jaccard": 0.3913264583914588,
+      "joint_coverage": 0.7836122331217542,
+      "raw_partition_ARI": 0.29470004615675177
+    }
+  ],
+  "seeds": [
+    20261031,
+    20261101,
+    20261102
+  ]
+}
