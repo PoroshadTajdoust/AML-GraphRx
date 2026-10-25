@@ -1,0 +1,5 @@
+# Normalization aligned ablation manuscript update
+
+Adds all nine archived normalized readouts for the three paired seeds, with original protocol and manifest; recalculates coverage and all pairwise agreement statistics from assignment caches; recreates the revised Figure 3; and documents the undefined empty–empty matched-Jaccard pair. The main manuscript uses this aligned readout. Original discovery labels, pathway definitions, BeatAML scoring and clinical endpoints are unchanged.
+
+Verification utilities were executed successfully on the supplied archive. They do not retrain encoders or regenerate assignments. The author-supplied normalization runner is now included, together with its unchanged original source and an unexecuted Colab wrapper. A manifest self-inclusion error on subsequent runs was corrected. The complete frozen inputs and historical dependency versions remain required for a full re-evaluation; that rerun has not been performed here. No new scientific analyses beyond the reported sensitivity are added.

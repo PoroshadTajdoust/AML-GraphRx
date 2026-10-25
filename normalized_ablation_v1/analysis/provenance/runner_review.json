@@ -1,0 +1,1159 @@
+{
+  "date": "2026-10-25",
+  "uploaded_source_sha256": "7b662d26faa8aa406e230693c3036c4a4856860b76b64e788db388cb4a1996a0",
+  "corrected_runner_sha256": "64f783b525877e99ed0c98b6878692d807bbad2746e72cca7d8a63126799e8e5",
+  "source_type": "User-supplied Python script; no original notebook execution outputs were supplied.",
+  "syntax": "PASS",
+  "recorded_arms_seeds_and_resampling_settings": "MATCH",
+  "cross_seed_comparison_recomputed_from_archived_caches": {
+    "pairs": 9,
+    "field_checks": 162,
+    "passed": 162,
+    "checks": [
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "arm",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "seed_a",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "seed_b",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "recurrent_states_a",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "recurrent_states_b",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "n_recurrent_a",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "n_recurrent_b",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "n_jointly_recurrent",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "jointly_recurrent_fraction",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "raw_partition_ARI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "raw_partition_NMI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "recurrent_partition_ARI_on_intersection",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "recurrent_intersection_states_a",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "recurrent_intersection_states_b",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "matched_recurrent_weighted_Jaccard",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "matched_states_n",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "unmatched_states_a",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "unmatched_states_b",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "arm",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "seed_a",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "seed_b",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "recurrent_states_a",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "recurrent_states_b",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "n_recurrent_a",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "n_recurrent_b",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "n_jointly_recurrent",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "jointly_recurrent_fraction",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "raw_partition_ARI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "raw_partition_NMI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "recurrent_partition_ARI_on_intersection",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "recurrent_intersection_states_a",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "recurrent_intersection_states_b",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "matched_recurrent_weighted_Jaccard",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "matched_states_n",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "unmatched_states_a",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "unmatched_states_b",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "arm",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "seed_a",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "seed_b",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "recurrent_states_a",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "recurrent_states_b",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "n_recurrent_a",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "n_recurrent_b",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "n_jointly_recurrent",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "jointly_recurrent_fraction",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "raw_partition_ARI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "raw_partition_NMI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "recurrent_partition_ARI_on_intersection",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "recurrent_intersection_states_a",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "recurrent_intersection_states_b",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "matched_recurrent_weighted_Jaccard",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "matched_states_n",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "unmatched_states_a",
+        "passed": true
+      },
+      {
+        "arm": "DEGREE_PRESERVING_REWIRE",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "unmatched_states_b",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "arm",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "seed_a",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "seed_b",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "recurrent_states_a",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "recurrent_states_b",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "n_recurrent_a",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "n_recurrent_b",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "n_jointly_recurrent",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "jointly_recurrent_fraction",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "raw_partition_ARI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "raw_partition_NMI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "recurrent_partition_ARI_on_intersection",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "recurrent_intersection_states_a",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "recurrent_intersection_states_b",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "matched_recurrent_weighted_Jaccard",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "matched_states_n",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "unmatched_states_a",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "unmatched_states_b",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "arm",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "seed_a",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "seed_b",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "recurrent_states_a",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "recurrent_states_b",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "n_recurrent_a",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "n_recurrent_b",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "n_jointly_recurrent",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "jointly_recurrent_fraction",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "raw_partition_ARI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "raw_partition_NMI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "recurrent_partition_ARI_on_intersection",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "recurrent_intersection_states_a",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "recurrent_intersection_states_b",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "matched_recurrent_weighted_Jaccard",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "matched_states_n",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "unmatched_states_a",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "unmatched_states_b",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "arm",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "seed_a",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "seed_b",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "recurrent_states_a",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "recurrent_states_b",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "n_recurrent_a",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "n_recurrent_b",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "n_jointly_recurrent",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "jointly_recurrent_fraction",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "raw_partition_ARI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "raw_partition_NMI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "recurrent_partition_ARI_on_intersection",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "recurrent_intersection_states_a",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "recurrent_intersection_states_b",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "matched_recurrent_weighted_Jaccard",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "matched_states_n",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "unmatched_states_a",
+        "passed": true
+      },
+      {
+        "arm": "NO_MESSAGE_PASSING",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "unmatched_states_b",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "arm",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "seed_a",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "seed_b",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "recurrent_states_a",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "recurrent_states_b",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "n_recurrent_a",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "n_recurrent_b",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "n_jointly_recurrent",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "jointly_recurrent_fraction",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "raw_partition_ARI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "raw_partition_NMI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "recurrent_partition_ARI_on_intersection",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "recurrent_intersection_states_a",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "recurrent_intersection_states_b",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "matched_recurrent_weighted_Jaccard",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "matched_states_n",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "unmatched_states_a",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261101,
+        "field": "unmatched_states_b",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "arm",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "seed_a",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "seed_b",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "recurrent_states_a",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "recurrent_states_b",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "n_recurrent_a",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "n_recurrent_b",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "n_jointly_recurrent",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "jointly_recurrent_fraction",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "raw_partition_ARI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "raw_partition_NMI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "recurrent_partition_ARI_on_intersection",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "recurrent_intersection_states_a",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "recurrent_intersection_states_b",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "matched_recurrent_weighted_Jaccard",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "matched_states_n",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "unmatched_states_a",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261031,
+        "seed_b": 20261102,
+        "field": "unmatched_states_b",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "arm",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "seed_a",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "seed_b",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "recurrent_states_a",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "recurrent_states_b",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "n_recurrent_a",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "n_recurrent_b",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "n_jointly_recurrent",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "jointly_recurrent_fraction",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "raw_partition_ARI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "raw_partition_NMI_all1733",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "recurrent_partition_ARI_on_intersection",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "recurrent_intersection_states_a",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "recurrent_intersection_states_b",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "matched_recurrent_weighted_Jaccard",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "matched_states_n",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "unmatched_states_a",
+        "passed": true
+      },
+      {
+        "arm": "REAL_GRAPH",
+        "seed_a": 20261101,
+        "seed_b": 20261102,
+        "field": "unmatched_states_b",
+        "passed": true
+      }
+    ]
+  },
+  "restart_fix": "Exclude sensitivity_outputs_manifest.csv from its own CSV inventory. This leaves the first-run result inventory unchanged and prevents immutable-manifest mismatch on a completed rerun.",
+  "output_inventory_matches_recorded_manifest": true,
+  "scientific_calculations_changed": false,
+  "full_pipeline_execution_in_this_review": false,
+  "limitations": [
+    "The uploaded script has no independently verifiable historical code hash in the output protocol.",
+    "Raw saved embeddings and the complete frozen-input tree are still required to rerun projection and clustering.",
+    "The original execution environment was not fully pinned in the supplied script.",
+    "The new notebook is an unexecuted Colab wrapper of the supplied source with the single documented restart fix."
+  ]
+}
