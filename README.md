@@ -60,3 +60,13 @@ Historical output identifiers remain inside filenames and manifests so that exis
 The GEO accessions, BeatAML and DepMap release are identified in the manuscript and input guide. Raw expression matrices, private Drive links, checkpoints, access tokens, manuscripts and patient-level clinical master files are not bundled as repository inputs. Included score tables retain the public study identifiers used for reproducibility.
 
 No author names, DOI, repository URL or software license have been invented. Add the actual author attribution and an author-approved license before public release. The repository has not been published automatically. See `docs/GITHUB_UPLOAD_FA.md`.
+## Normalization-aligned ablation
+
+The updated analysis, all nine saved results, verification scripts,
+and Figure 3 are available in normalized_ablation_v1/.
+
+The analysis folder contains the author-supplied Python runner and
+an unexecuted Colab notebook assembled from it. Full re-execution
+requires the original frozen inputs and all nine saved embeddings.
+
+See normalized_ablation_v1/README.md for instructions and provenance.
